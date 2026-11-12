@@ -1,0 +1,11 @@
+{
+  "backend": "openai_compatible",
+  "base_url": "https://YOUR_PROVIDER/v1",
+  "model": "YOUR_EXACT_MODEL_ID",
+  "api_key_env": "SWCV_API_KEY",
+  "method": "naive_rag",
+  "top_k": 20,
+  "workers": 16,
+  "max_tokens": 512,
+  "temperature": 0
+}

@@ -1,0 +1,17 @@
+{
+  "full1000": {
+    "correct": 763,
+    "n": 1000,
+    "accuracy_percent": 76.3
+  },
+  "original335": {
+    "correct": 255,
+    "n": 335,
+    "accuracy_percent": 76.11940298507463
+  },
+  "remaining665": {
+    "correct": 508,
+    "n": 665,
+    "accuracy_percent": 76.39097744360902
+  }
+}

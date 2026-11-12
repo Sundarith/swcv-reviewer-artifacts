@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swcv-reproducibility"
+version = "0.1.0"
+description = "SWCV reproducibility tools and API inference"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+swcv-reproduce = "swcv.reproduce:main"
+swcv-infer = "swcv.inference:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

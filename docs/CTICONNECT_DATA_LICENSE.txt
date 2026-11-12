@@ -1,0 +1,42 @@
+CTIConnect Benchmark Data — Creative Commons Attribution 4.0 International
+(CC-BY-4.0)
+
+This license applies to the DATA in this repository:
+  - data/                 (the 691-QA benchmark)
+  - corpus_kb/            (filtered CVE/CWE/CAPEC/ATT&CK knowledge bases)
+  - corpus_reports/       (executive summaries of vendor threat reports)
+  - cskg/                 (the cyber-security knowledge graph artifact)
+  - construction/seeds/   (cross-source mappings, report clusters, B2F)
+  - construction/raw_qa/  (per-item raw QA provenance)
+
+You are free to:
+  • Share  — copy and redistribute the material in any medium or format
+  • Adapt  — remix, transform, and build upon the material for any purpose,
+             even commercially
+
+Under the following terms:
+  • Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made. You may do so in any
+    reasonable manner, but not in any way that suggests the licensor endorses
+    you or your use.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+ATTRIBUTION
+-----------
+If you use this dataset, please cite:
+
+  Cheng, Yutong; Liu, Yang; Li, Changze; Song, Dawn; Gao, Peng.
+  "CTIConnect: A Benchmark for Retrieval-Augmented LLMs over Heterogeneous
+  Cyber Threat Intelligence." Proceedings of the 32nd ACM SIGKDD Conference
+  on Knowledge Discovery and Data Mining (KDD), 2026.
+
+THIRD-PARTY SOURCES & NOTES
+---------------------------
+  • CVE/CWE/CAPEC/ATT&CK content derives from MITRE and NVD public sources,
+    which are themselves freely redistributable. See corpus_kb/MANIFEST.json
+    for snapshot dates and source URLs.
+  • corpus_reports/ contains only short, factual EXECUTIVE SUMMARIES of vendor
+    threat reports plus their source URLs — NOT the full report text — to
+    respect vendor copyright. The original reports remain the property of
+    their respective publishers.

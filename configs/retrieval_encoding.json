@@ -1,0 +1,19 @@
+{
+  "repo_id": "Qwen/Qwen3-Embedding-4B",
+  "revision": "5cf2132abc99cad020ac570b19d031efec650f2b",
+  "precision": "BF16 weights; FP32 normalization and saved vectors",
+  "dimensions": 2560,
+  "max_length": 8192,
+  "query_prefix": "Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery:",
+  "document_prefix": "",
+  "attention": "sdpa",
+  "padding_side": "left",
+  "sample_documents_preflight": 256,
+  "batch_size_by_length": {
+    "up_to1024": 32,
+    "up_to2048": 16,
+    "up_to4096": 4,
+    "over4096": 2
+  },
+  "oom_policy": "Split batches without altering texts, model, pooling, dimensions or input cap; fail on single-item OOM"
+}

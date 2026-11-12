@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/Sundarith/swcv-reviewer-artifacts",
+  "release": "v1.0.0",
+  "assets": {
+    "rcm_results_and_protocols.zip": {
+      "sha256": "4cfa7e36da781cf827df27c7b060605770beaef44500639560379b3c8c56f75d",
+      "bytes": 252132317,
+      "url": "https://github.com/Sundarith/swcv-reviewer-artifacts/releases/download/v1.0.0/rcm_results_and_protocols.zip"
+    },
+    "historical_corpus_inputs.zip": {
+      "sha256": "e28e650986478a06e6da2f15f78026a1d88a38f3afe182d8763437fd05553013",
+      "bytes": 55225041,
+      "url": "https://github.com/Sundarith/swcv-reviewer-artifacts/releases/download/v1.0.0/historical_corpus_inputs.zip"
+    }
+  },
+  "verified_reader_conditions": 198,
+  "corpus_records_rebuilt": 120238,
+  "encoded_corpus_text_labels_order_unchanged": true,
+  "saved_payloads": 153889,
+  "sanitization": "Local paths redacted only from unused mapping provenance; see docs/sanitization_manifest.json",
+  "historical_date_gaps": "Explicitly documented; not recovered by sanitization or publication"
+}

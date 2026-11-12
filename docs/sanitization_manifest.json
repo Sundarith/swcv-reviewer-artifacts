@@ -1,0 +1,39 @@
+{
+  "scope": "Public copies only; originals preserved privately",
+  "rules": [
+    {
+      "kind": "credential_like",
+      "replacement": "[REDACTED_TOKEN_LIKE_STRING]"
+    },
+    {
+      "kind": "private_path",
+      "replacement": "/REDACTED_WORKSPACE"
+    },
+    {
+      "kind": "local_service",
+      "replacement": "https://REDACTED_LOCAL_SERVICE"
+    },
+    {
+      "kind": "internal_hostname",
+      "replacement": "REDACTED_HOST"
+    }
+  ],
+  "files": [
+    {
+      "file": "public_corpus_inputs/source_mappings.jsonl.gz",
+      "original_file_sha256": "8560b199b7b400522b05adf5aeb508fe8eacfa79f835240ed24d26730bd9f956",
+      "public_file_sha256": "c382ba251719dafffd3592fa4087d75ae03ab02d47c473a97b7bb93fd3488800",
+      "redactions": {
+        "private_path": 330654
+      }
+    }
+  ],
+  "counts": {
+    "private_path": 330654
+  },
+  "corpus_documents": 120238,
+  "corpus_encoded_text_changed": 0,
+  "corpus_metadata_changed": 0,
+  "labels_ids_order_preserved": true,
+  "note": "Only machine-local path prefixes in structured mapping provenance were redacted. No credentials were detected at token boundaries. Public saved requests, encoded corpus text, labels and row order are unchanged; companion-input checksums bind the sanitized provenance copy."
+}

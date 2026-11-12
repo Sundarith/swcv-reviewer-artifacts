@@ -1,0 +1,23 @@
+{
+  "benchmark": "CTI-Bench RCM1000",
+  "eligible_references": 120242,
+  "top_k": 20,
+  "candidate_format": "[doc_id] title followed by first600 characters of original reference text; double newline separators",
+  "max_output_tokens": 512,
+  "temperature": 0,
+  "thinking": false,
+  "top_p": "omitted",
+  "seed": "omitted",
+  "client_workers": 16,
+  "output_constraints": false,
+  "json_fallback": false,
+  "answer_repair": false,
+  "returned_answer_retries": false,
+  "exception_attempts": 4,
+  "exception_backoff_seconds": [
+    1,
+    2,
+    4
+  ],
+  "scoring": "CTIConnect identifier-set extraction/scoring using canonical CTI-Bench gold, no alternate-target credit"
+}
