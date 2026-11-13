@@ -1,0 +1,104 @@
+{
+  "runs": {
+    "original-1": {
+      "n": 1000,
+      "precision": 0.749,
+      "recall": 0.769,
+      "f1": 0.7555,
+      "exact_match": 0.73
+    },
+    "rewrite-1": {
+      "n": 1000,
+      "precision": 0.745,
+      "recall": 0.773,
+      "f1": 0.7541666666666667,
+      "exact_match": 0.718
+    },
+    "original-2": {
+      "n": 1000,
+      "precision": 0.7530333333333333,
+      "recall": 0.775,
+      "f1": 0.76,
+      "exact_match": 0.733
+    },
+    "rewrite-2": {
+      "n": 1000,
+      "precision": 0.7466666666666666,
+      "recall": 0.771,
+      "f1": 0.7546666666666666,
+      "exact_match": 0.723
+    },
+    "original-3": {
+      "n": 1000,
+      "precision": 0.7525,
+      "recall": 0.772,
+      "f1": 0.759,
+      "exact_match": 0.733
+    },
+    "rewrite-3": {
+      "n": 1000,
+      "precision": 0.7575,
+      "recall": 0.781,
+      "f1": 0.7651666666666667,
+      "exact_match": 0.735
+    }
+  },
+  "f1_ranges": {
+    "original": [
+      0.7555,
+      0.76
+    ],
+    "rewrite": [
+      0.7541666666666667,
+      0.7651666666666667
+    ]
+  },
+  "any_reader_run_exceeds_aggregation": true,
+  "ledger_sha256": {
+    "original-1": "eee7d82b97089a8446d53475e7b812b3ff6a19905da9ed4ac0292bd419790a5c",
+    "rewrite-1": "1b7efb031162d623347f7d49c9201fa5ecfd010c42231a83bd54ec95908f6b62",
+    "original-2": "b3fad32a87dec716ee7424cbc3948271db2cd256af793a0f659c692895049371",
+    "rewrite-2": "3dac09d48f58c05bc5b7be5a0d074bed153861e1c4d48ae83ca3676847eb7d53",
+    "original-3": "ad8a5aba74b58a608f81da6cc049339b8cce61fe6c5fbcf620a96efe35330143",
+    "rewrite-3": "4cedbf39da6d1cee7d38a53cc282c5b144161e04dac2c8e54443b9f3525b3785"
+  },
+  "run_dates_utc": [
+    "2026-11-09",
+    "2026-11-10"
+  ],
+  "original_system": "You are a Cyber Threat Intelligence expert. Use the retrieved knowledge-base candidates to answer. State the exact identifier (CWE-/CVE-/CAPEC-/T-) explicitly in your answer.",
+  "original_user": "Question:\n{question}\n\nRetrieved knowledge-base candidates:\n{candidates}\n\nBased on the candidates above, answer the question. Cite the single best-matching\nidentifier explicitly.",
+  "rewrite_user": "Question:\n{question}\n\nRetrieved knowledge-base candidates:\n{candidates}\n\nUse the candidates above to answer the question. Explicitly state the one\nidentifier that best matches.",
+  "prepared_sha256": "64eef824a68551669595044dd3b744c287139c33b83ca6ff91952fdc39f91c02",
+  "scorer_sha256": "6ccceec95b1b45444f86329e3f155a236b26fd0c4faca2e42738963fe90bf4b5",
+  "chat_template_sha256": "56b5c31e31af8093ae6e47fd513439143315228899291c1b377639aedbc31f79",
+  "snapshot_revision": "1deb4641ff84f9a728dd11b27cac1f6a02a9ed14",
+  "request_settings": {
+    "temperature": 0,
+    "max_tokens": 512,
+    "n": 1
+  },
+  "chat_template_kwargs": {
+    "current_date": "2026-11-06",
+    "muse_direct_answer": true,
+    "enable_thinking": false
+  },
+  "run_order": [
+    "original-1",
+    "rewrite-1",
+    "original-2",
+    "rewrite-2",
+    "original-3",
+    "rewrite-3"
+  ],
+  "nonempty_responses": 6000,
+  "server": {
+    "device": "NVIDIA GB10",
+    "tensor_parallel_size": 1,
+    "vllm": "0.28.0",
+    "transformers": "5.16.1",
+    "max_model_len": 8192,
+    "workers": 16,
+    "generation_config": "auto"
+  }
+}

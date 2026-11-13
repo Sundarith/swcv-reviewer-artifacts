@@ -1,0 +1,16 @@
+{
+  "usage": [
+    {
+      "gpu": 0,
+      "new_sources": 61,
+      "workers": 8
+    },
+    {
+      "gpu": 1,
+      "new_sources": 60,
+      "workers": 8
+    }
+  ],
+  "vectors_sha256": "ac34a3b921b40393ba356de29ace84555cac89961644ac9a0261613da267ac31",
+  "input_sha256": "a6d87e536494bc390a928f8beec9cf9446cc33868a5a01fb2e75540768e133b7"
+}

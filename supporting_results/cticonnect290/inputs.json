@@ -1,0 +1,916 @@
+{
+  "release": "v1.0.0/rcm_results_and_protocols.zip",
+  "conditions": [
+    {
+      "name": "closed_book__granite8b",
+      "method": "closed_book",
+      "model": "granite8b",
+      "reported_f1_percent": 35.561029009304875,
+      "release_path": "conditions/cticonnect290/closed_book/granite8b/predictions.jsonl",
+      "file": "answers/closed_book__granite8b.jsonl.gz",
+      "uncompressed_sha256": "4a8bf3796e5d0678afe7e1eb26eb415fce002470c0ff2f5b36ab8dff69f53c72"
+    },
+    {
+      "name": "naive_rag__granite8b",
+      "method": "naive_rag",
+      "model": "granite8b",
+      "reported_f1_percent": 49.25478927203065,
+      "release_path": "conditions/cticonnect290/naive_rag/granite8b/predictions.jsonl",
+      "file": "answers/naive_rag__granite8b.jsonl.gz",
+      "uncompressed_sha256": "a907def1394b1ce0b5538d6f8066533c7e67d534bc7147cc15b6e006ad406ddf"
+    },
+    {
+      "name": "linearrag__granite8b",
+      "method": "linearrag",
+      "model": "granite8b",
+      "reported_f1_percent": 31.86863711001642,
+      "release_path": "conditions/cticonnect290/linearrag/granite8b/predictions.jsonl",
+      "file": "answers/linearrag__granite8b.jsonl.gz",
+      "uncompressed_sha256": "424550fc17c0c67ea50d45b09addf0f2f6887a255986044a4992dfaecc30d741"
+    },
+    {
+      "name": "reranked_rag__granite8b",
+      "method": "reranked_rag",
+      "model": "granite8b",
+      "reported_f1_percent": 50.671045429666115,
+      "release_path": "conditions/cticonnect290/reranked_rag/granite8b/predictions.jsonl",
+      "file": "answers/reranked_rag__granite8b.jsonl.gz",
+      "uncompressed_sha256": "5215a0c32b530a197dd2842e615d8bbc0925ab35311f5c71497c3ce03242cf83"
+    },
+    {
+      "name": "local_crag__granite8b",
+      "method": "local_crag",
+      "model": "granite8b",
+      "reported_f1_percent": 36.174055829228244,
+      "release_path": "conditions/cticonnect290/local_crag/granite8b/predictions.jsonl",
+      "file": "answers/local_crag__granite8b.jsonl.gz",
+      "uncompressed_sha256": "8d6d45fe7196e873229a8a9af38d04e607089434ed6aa4cf62b39aa82a2c5846"
+    },
+    {
+      "name": "hyde__granite8b",
+      "method": "hyde",
+      "model": "granite8b",
+      "reported_f1_percent": 45.83415435139573,
+      "release_path": "conditions/cticonnect290/hyde/granite8b/predictions.jsonl",
+      "file": "answers/hyde__granite8b.jsonl.gz",
+      "uncompressed_sha256": "d7bada071b300d9a8d2bd7e4e9a111b684cd1f7ba879ed663783e61feb0a0067"
+    },
+    {
+      "name": "rag_fusion__granite8b",
+      "method": "rag_fusion",
+      "model": "granite8b",
+      "reported_f1_percent": 47.40777230432403,
+      "release_path": "conditions/cticonnect290/rag_fusion/granite8b/predictions.jsonl",
+      "file": "answers/rag_fusion__granite8b.jsonl.gz",
+      "uncompressed_sha256": "cadc946803fdd44b8783b513202bcb9f662ca312c6f5a8554c6b98eaab67b46d"
+    },
+    {
+      "name": "etr__granite8b",
+      "method": "etr",
+      "model": "granite8b",
+      "reported_f1_percent": 41.800492610837445,
+      "release_path": "conditions/cticonnect290/etr/granite8b/predictions.jsonl",
+      "file": "answers/etr__granite8b.jsonl.gz",
+      "uncompressed_sha256": "170a5666db9d893b54a486e2cef1a6a382543eb02904e0c6522f4cb58ce7b922"
+    },
+    {
+      "name": "a_rag__granite8b",
+      "method": "a_rag",
+      "model": "granite8b",
+      "reported_f1_percent": 48.139573070607554,
+      "release_path": "conditions/cticonnect290/a_rag/granite8b/predictions.jsonl",
+      "file": "answers/a_rag__granite8b.jsonl.gz",
+      "uncompressed_sha256": "9c966a6ecc04d2747b968808b3fd5f70e7f81f797037fd63cd9034cc50fb7b28"
+    },
+    {
+      "name": "closed_book__qwen",
+      "method": "closed_book",
+      "model": "qwen",
+      "reported_f1_percent": 43.90311986863711,
+      "release_path": "conditions/cticonnect290/closed_book/qwen/predictions.jsonl",
+      "file": "answers/closed_book__qwen.jsonl.gz",
+      "uncompressed_sha256": "17d3cbf2f7558dec5c41f27f8d624c87eab1bed89dde367c0f4a5d263849095d"
+    },
+    {
+      "name": "naive_rag__qwen",
+      "method": "naive_rag",
+      "model": "qwen",
+      "reported_f1_percent": 55.804597701149426,
+      "release_path": "conditions/cticonnect290/naive_rag/qwen/predictions.jsonl",
+      "file": "answers/naive_rag__qwen.jsonl.gz",
+      "uncompressed_sha256": "469b76c0f2834fc3aec589d17735176dc719ad150207b45de9823d0eae31882b"
+    },
+    {
+      "name": "linearrag__qwen",
+      "method": "linearrag",
+      "model": "qwen",
+      "reported_f1_percent": 33.89244663382595,
+      "release_path": "conditions/cticonnect290/linearrag/qwen/predictions.jsonl",
+      "file": "answers/linearrag__qwen.jsonl.gz",
+      "uncompressed_sha256": "81976bcb26348238d8c54ddf4acd292cea49d0b218c64447d46b688915a68bf1"
+    },
+    {
+      "name": "reranked_rag__qwen",
+      "method": "reranked_rag",
+      "model": "qwen",
+      "reported_f1_percent": 61.080459770114935,
+      "release_path": "conditions/cticonnect290/reranked_rag/qwen/predictions.jsonl",
+      "file": "answers/reranked_rag__qwen.jsonl.gz",
+      "uncompressed_sha256": "380d7ca36c2245bbb5dced7f5ad5d4d7077b40644b3a3d24bdae56fad0716791"
+    },
+    {
+      "name": "local_crag__qwen",
+      "method": "local_crag",
+      "model": "qwen",
+      "reported_f1_percent": 43.264367816091955,
+      "release_path": "conditions/cticonnect290/local_crag/qwen/predictions.jsonl",
+      "file": "answers/local_crag__qwen.jsonl.gz",
+      "uncompressed_sha256": "927a4e67031ae4709a2f604e413a541c2762e4c46ecbc20ee538f5e785372229"
+    },
+    {
+      "name": "hyde__qwen",
+      "method": "hyde",
+      "model": "qwen",
+      "reported_f1_percent": 53.54022988505748,
+      "release_path": "conditions/cticonnect290/hyde/qwen/predictions.jsonl",
+      "file": "answers/hyde__qwen.jsonl.gz",
+      "uncompressed_sha256": "f130bc1d6e2f454297c94559565652d26b75c2d55f40c509b9a67ee4bfe38beb"
+    },
+    {
+      "name": "rag_fusion__qwen",
+      "method": "rag_fusion",
+      "model": "qwen",
+      "reported_f1_percent": 54.85057471264368,
+      "release_path": "conditions/cticonnect290/rag_fusion/qwen/predictions.jsonl",
+      "file": "answers/rag_fusion__qwen.jsonl.gz",
+      "uncompressed_sha256": "19ad9ae1623b5ec36c852f3bc5dec45b6a166dad19b4e663b8ff5eea4ee66de2"
+    },
+    {
+      "name": "etr__qwen",
+      "method": "etr",
+      "model": "qwen",
+      "reported_f1_percent": 40.06896551724138,
+      "release_path": "conditions/cticonnect290/etr/qwen/predictions.jsonl",
+      "file": "answers/etr__qwen.jsonl.gz",
+      "uncompressed_sha256": "57aa00e6cc21bfaba60fedf9489251bb6bb13a175547394680b49dd4652be0d3"
+    },
+    {
+      "name": "a_rag__qwen",
+      "method": "a_rag",
+      "model": "qwen",
+      "reported_f1_percent": 55.831417624521066,
+      "release_path": "conditions/cticonnect290/a_rag/qwen/predictions.jsonl",
+      "file": "answers/a_rag__qwen.jsonl.gz",
+      "uncompressed_sha256": "87d310e96c6b2bc6601610d9d66e572a75a36d985b8be7f619cf22185ba91531"
+    },
+    {
+      "name": "closed_book__gemmae4b",
+      "method": "closed_book",
+      "model": "gemmae4b",
+      "reported_f1_percent": 41.89655172413793,
+      "release_path": "conditions/cticonnect290/closed_book/gemmae4b/predictions.jsonl",
+      "file": "answers/closed_book__gemmae4b.jsonl.gz",
+      "uncompressed_sha256": "8f82a02ee5bafa5607ad0951592e35d1c4aeeefe09013fa59457ab1f14127144"
+    },
+    {
+      "name": "naive_rag__gemmae4b",
+      "method": "naive_rag",
+      "model": "gemmae4b",
+      "reported_f1_percent": 56.05747126436782,
+      "release_path": "conditions/cticonnect290/naive_rag/gemmae4b/predictions.jsonl",
+      "file": "answers/naive_rag__gemmae4b.jsonl.gz",
+      "uncompressed_sha256": "163e70fa19467de997704171c04aa6f0300d0d03a63f0481e953f541cc64d0bc"
+    },
+    {
+      "name": "linearrag__gemmae4b",
+      "method": "linearrag",
+      "model": "gemmae4b",
+      "reported_f1_percent": 30.70935960591133,
+      "release_path": "conditions/cticonnect290/linearrag/gemmae4b/predictions.jsonl",
+      "file": "answers/linearrag__gemmae4b.jsonl.gz",
+      "uncompressed_sha256": "e301627dd42250a39689c1b73fe3c0b330e20d7eedc8afdc2a0d7a0828bcfb61"
+    },
+    {
+      "name": "reranked_rag__gemmae4b",
+      "method": "reranked_rag",
+      "model": "gemmae4b",
+      "reported_f1_percent": 56.04597701149425,
+      "release_path": "conditions/cticonnect290/reranked_rag/gemmae4b/predictions.jsonl",
+      "file": "answers/reranked_rag__gemmae4b.jsonl.gz",
+      "uncompressed_sha256": "4c3fc118647f882732507f0f504056b25818fc7ca05406fbe2ab4e2827bdcd96"
+    },
+    {
+      "name": "local_crag__gemmae4b",
+      "method": "local_crag",
+      "model": "gemmae4b",
+      "reported_f1_percent": 27.126436781609197,
+      "release_path": "conditions/cticonnect290/local_crag/gemmae4b/predictions.jsonl",
+      "file": "answers/local_crag__gemmae4b.jsonl.gz",
+      "uncompressed_sha256": "7ec2cbcd91d8325a6a7cf19d2aa30aa30c6b94d7151a3567c637061ff0fe9351"
+    },
+    {
+      "name": "hyde__gemmae4b",
+      "method": "hyde",
+      "model": "gemmae4b",
+      "reported_f1_percent": 52.58620689655172,
+      "release_path": "conditions/cticonnect290/hyde/gemmae4b/predictions.jsonl",
+      "file": "answers/hyde__gemmae4b.jsonl.gz",
+      "uncompressed_sha256": "7e5e07c9c94866c71f8929379148eb68b059016c9af24415253f36b5921f037a"
+    },
+    {
+      "name": "rag_fusion__gemmae4b",
+      "method": "rag_fusion",
+      "model": "gemmae4b",
+      "reported_f1_percent": 58.14449917898193,
+      "release_path": "conditions/cticonnect290/rag_fusion/gemmae4b/predictions.jsonl",
+      "file": "answers/rag_fusion__gemmae4b.jsonl.gz",
+      "uncompressed_sha256": "b0d3d2853ec88642528a9e1ede248bab163b8df70f2da5bf4e677b7fd6b747b6"
+    },
+    {
+      "name": "etr__gemmae4b",
+      "method": "etr",
+      "model": "gemmae4b",
+      "reported_f1_percent": 47.0919540229885,
+      "release_path": "conditions/cticonnect290/etr/gemmae4b/predictions.jsonl",
+      "file": "answers/etr__gemmae4b.jsonl.gz",
+      "uncompressed_sha256": "6683212ccfcf581c9fbbcf6c8cff28a726ae4bc073ca95720ec62b6a690d1705"
+    },
+    {
+      "name": "a_rag__gemmae4b",
+      "method": "a_rag",
+      "model": "gemmae4b",
+      "reported_f1_percent": 52.689655172413794,
+      "release_path": "conditions/cticonnect290/a_rag/gemmae4b/predictions.jsonl",
+      "file": "answers/a_rag__gemmae4b.jsonl.gz",
+      "uncompressed_sha256": "d884baa23a2f2d4dd72614f2e1b6c9770c062603b2014d122604c377af151f6a"
+    },
+    {
+      "name": "closed_book__llama",
+      "method": "closed_book",
+      "model": "llama",
+      "reported_f1_percent": 32.93103448275862,
+      "release_path": "conditions/cticonnect290/closed_book/llama/predictions.jsonl",
+      "file": "answers/closed_book__llama.jsonl.gz",
+      "uncompressed_sha256": "fc7b2d8785d87b8af2264d9f6cf5eedf43d7ac35e265fcb4aeca3c36008eb63c"
+    },
+    {
+      "name": "naive_rag__llama",
+      "method": "naive_rag",
+      "model": "llama",
+      "reported_f1_percent": 57.13793103448276,
+      "release_path": "conditions/cticonnect290/naive_rag/llama/predictions.jsonl",
+      "file": "answers/naive_rag__llama.jsonl.gz",
+      "uncompressed_sha256": "344d12aeb8dd17d6196c22d7154c3e4bf4d5274ee837b37acf09f942c63d4756"
+    },
+    {
+      "name": "linearrag__llama",
+      "method": "linearrag",
+      "model": "llama",
+      "reported_f1_percent": 40.174055829228244,
+      "release_path": "conditions/cticonnect290/linearrag/llama/predictions.jsonl",
+      "file": "answers/linearrag__llama.jsonl.gz",
+      "uncompressed_sha256": "c60dcd329b1f60ace88b46e828a9ac12964a2bbf0b7df794cbcd329514e12834"
+    },
+    {
+      "name": "reranked_rag__llama",
+      "method": "reranked_rag",
+      "model": "llama",
+      "reported_f1_percent": 62.01149425287357,
+      "release_path": "conditions/cticonnect290/reranked_rag/llama/predictions.jsonl",
+      "file": "answers/reranked_rag__llama.jsonl.gz",
+      "uncompressed_sha256": "6e1f153dc7be8c491421b29eb0f178823b2486bfb954aa0c913359b466c61c96"
+    },
+    {
+      "name": "local_crag__llama",
+      "method": "local_crag",
+      "model": "llama",
+      "reported_f1_percent": 37.58620689655172,
+      "release_path": "conditions/cticonnect290/local_crag/llama/predictions.jsonl",
+      "file": "answers/local_crag__llama.jsonl.gz",
+      "uncompressed_sha256": "18ab5443e768042633e4441dda764fa84e3308cde4cf3b55ed83090a04719b4f"
+    },
+    {
+      "name": "hyde__llama",
+      "method": "hyde",
+      "model": "llama",
+      "reported_f1_percent": 52.758620689655174,
+      "release_path": "conditions/cticonnect290/hyde/llama/predictions.jsonl",
+      "file": "answers/hyde__llama.jsonl.gz",
+      "uncompressed_sha256": "cfbfb8caa292c8c263622e6ec2952feff93e448f00bb39af32aad4bdc21e8476"
+    },
+    {
+      "name": "rag_fusion__llama",
+      "method": "rag_fusion",
+      "model": "llama",
+      "reported_f1_percent": 57.18390804597702,
+      "release_path": "conditions/cticonnect290/rag_fusion/llama/predictions.jsonl",
+      "file": "answers/rag_fusion__llama.jsonl.gz",
+      "uncompressed_sha256": "6f287a037f5b01ae86b8f60a61b8c098e77608a5a5ddf3d334220833a3e46ff4"
+    },
+    {
+      "name": "etr__llama",
+      "method": "etr",
+      "model": "llama",
+      "reported_f1_percent": 41.264367816091955,
+      "release_path": "conditions/cticonnect290/etr/llama/predictions.jsonl",
+      "file": "answers/etr__llama.jsonl.gz",
+      "uncompressed_sha256": "f201339cdbfbbce779d9f92e8123ae5cadf1c7568182c5a9b8604310bd2c6682"
+    },
+    {
+      "name": "a_rag__llama",
+      "method": "a_rag",
+      "model": "llama",
+      "reported_f1_percent": 26.7816091954023,
+      "release_path": "conditions/cticonnect290/a_rag/llama/predictions.jsonl",
+      "file": "answers/a_rag__llama.jsonl.gz",
+      "uncompressed_sha256": "433b8a5a252b273dd1c983bcc19fccc4e7b4a3fd9c1415140163fa1a0a831955"
+    },
+    {
+      "name": "closed_book__phi",
+      "method": "closed_book",
+      "model": "phi",
+      "reported_f1_percent": 43.24137931034483,
+      "release_path": "conditions/cticonnect290/closed_book/phi/predictions.jsonl",
+      "file": "answers/closed_book__phi.jsonl.gz",
+      "uncompressed_sha256": "e57670589545225792f090dbb093f1c04e9c9a4e4dfb9ec3c1dde35949674e38"
+    },
+    {
+      "name": "naive_rag__phi",
+      "method": "naive_rag",
+      "model": "phi",
+      "reported_f1_percent": 57.4367816091954,
+      "release_path": "conditions/cticonnect290/naive_rag/phi/predictions.jsonl",
+      "file": "answers/naive_rag__phi.jsonl.gz",
+      "uncompressed_sha256": "92b812f5620d7c81e769ccc8986d30f98e8767b86b465cb349fc9f4bed45722d"
+    },
+    {
+      "name": "linearrag__phi",
+      "method": "linearrag",
+      "model": "phi",
+      "reported_f1_percent": 42.48440065681445,
+      "release_path": "conditions/cticonnect290/linearrag/phi/predictions.jsonl",
+      "file": "answers/linearrag__phi.jsonl.gz",
+      "uncompressed_sha256": "95496acf4c62ed1ac93a5a982045e6bcb4c8bd675024bb8fa57614ddfbc28045"
+    },
+    {
+      "name": "reranked_rag__phi",
+      "method": "reranked_rag",
+      "model": "phi",
+      "reported_f1_percent": 62.87356321839081,
+      "release_path": "conditions/cticonnect290/reranked_rag/phi/predictions.jsonl",
+      "file": "answers/reranked_rag__phi.jsonl.gz",
+      "uncompressed_sha256": "577f4538ea0f53bee67f756d0ec0531ab78d1188a661664ae47290493782d18e"
+    },
+    {
+      "name": "local_crag__phi",
+      "method": "local_crag",
+      "model": "phi",
+      "reported_f1_percent": 45.17241379310345,
+      "release_path": "conditions/cticonnect290/local_crag/phi/predictions.jsonl",
+      "file": "answers/local_crag__phi.jsonl.gz",
+      "uncompressed_sha256": "fd6cd433c8e904a2c89d5af77b9ea3fe6c3e47e48b7ca34e04f923df66a91686"
+    },
+    {
+      "name": "hyde__phi",
+      "method": "hyde",
+      "model": "phi",
+      "reported_f1_percent": 55.7471264367816,
+      "release_path": "conditions/cticonnect290/hyde/phi/predictions.jsonl",
+      "file": "answers/hyde__phi.jsonl.gz",
+      "uncompressed_sha256": "fadbaa2db201ac91b2e482b23b84cfd6558eebbe76b606bf37bd870bdfe3ffe6"
+    },
+    {
+      "name": "rag_fusion__phi",
+      "method": "rag_fusion",
+      "model": "phi",
+      "reported_f1_percent": 59.218390804597696,
+      "release_path": "conditions/cticonnect290/rag_fusion/phi/predictions.jsonl",
+      "file": "answers/rag_fusion__phi.jsonl.gz",
+      "uncompressed_sha256": "2e6ff69c7bb9740f05b15c08f26c74e22bf4b60e615f1b6928ef8ad7c650edfb"
+    },
+    {
+      "name": "etr__phi",
+      "method": "etr",
+      "model": "phi",
+      "reported_f1_percent": 47.81609195402299,
+      "release_path": "conditions/cticonnect290/etr/phi/predictions.jsonl",
+      "file": "answers/etr__phi.jsonl.gz",
+      "uncompressed_sha256": "0e0269f5cda8865e173bdd092a717544f36cb567926b21e7ebc98975af7592ec"
+    },
+    {
+      "name": "a_rag__phi",
+      "method": "a_rag",
+      "model": "phi",
+      "reported_f1_percent": 35.91954022988506,
+      "release_path": "conditions/cticonnect290/a_rag/phi/predictions.jsonl",
+      "file": "answers/a_rag__phi.jsonl.gz",
+      "uncompressed_sha256": "44de8de340a45a5376b973289c3807390715394e4639ba259f57e08d754f22ec"
+    },
+    {
+      "name": "closed_book__granite30_fp8",
+      "method": "closed_book",
+      "model": "granite30_fp8",
+      "reported_f1_percent": 38.905856595511764,
+      "release_path": "conditions/cticonnect290/closed_book/granite30_fp8/predictions.jsonl",
+      "file": "answers/closed_book__granite30_fp8.jsonl.gz",
+      "uncompressed_sha256": "b727e98c7b7c5fe426e15b871c2fd80175b947be67916f33b74e66030d5eb4c7"
+    },
+    {
+      "name": "naive_rag__granite30_fp8",
+      "method": "naive_rag",
+      "model": "granite30_fp8",
+      "reported_f1_percent": 58.33333333333333,
+      "release_path": "conditions/cticonnect290/naive_rag/granite30_fp8/predictions.jsonl",
+      "file": "answers/naive_rag__granite30_fp8.jsonl.gz",
+      "uncompressed_sha256": "d319701e1df6116baac1eef02bd4a26872263117165af5380334073269826b51"
+    },
+    {
+      "name": "linearrag__granite30_fp8",
+      "method": "linearrag",
+      "model": "granite30_fp8",
+      "reported_f1_percent": 33.88533114395184,
+      "release_path": "conditions/cticonnect290/linearrag/granite30_fp8/predictions.jsonl",
+      "file": "answers/linearrag__granite30_fp8.jsonl.gz",
+      "uncompressed_sha256": "45ad30cb3451e269e9d3356db0b74163d98c5efa103776c00074eaecf29805ed"
+    },
+    {
+      "name": "reranked_rag__granite30_fp8",
+      "method": "reranked_rag",
+      "model": "granite30_fp8",
+      "reported_f1_percent": 60.42528735632183,
+      "release_path": "conditions/cticonnect290/reranked_rag/granite30_fp8/predictions.jsonl",
+      "file": "answers/reranked_rag__granite30_fp8.jsonl.gz",
+      "uncompressed_sha256": "8cbda0cc84132cf694b6c7e1c923c603c2ce541044fd14d0bab65713760e4042"
+    },
+    {
+      "name": "local_crag__granite30_fp8",
+      "method": "local_crag",
+      "model": "granite30_fp8",
+      "reported_f1_percent": 43.949096880131364,
+      "release_path": "conditions/cticonnect290/local_crag/granite30_fp8/predictions.jsonl",
+      "file": "answers/local_crag__granite30_fp8.jsonl.gz",
+      "uncompressed_sha256": "0ab020d88f783f094c469a80bcf59b71941d87c59bdee0ed93e7c63a72f0b972"
+    },
+    {
+      "name": "hyde__granite30_fp8",
+      "method": "hyde",
+      "model": "granite30_fp8",
+      "reported_f1_percent": 54.51724137931034,
+      "release_path": "conditions/cticonnect290/hyde/granite30_fp8/predictions.jsonl",
+      "file": "answers/hyde__granite30_fp8.jsonl.gz",
+      "uncompressed_sha256": "77c30056595e9b264e36ff8f2106be9e804d7224900f1ccbc8f8df7756a3d5c3"
+    },
+    {
+      "name": "rag_fusion__granite30_fp8",
+      "method": "rag_fusion",
+      "model": "granite30_fp8",
+      "reported_f1_percent": 59.77668308702791,
+      "release_path": "conditions/cticonnect290/rag_fusion/granite30_fp8/predictions.jsonl",
+      "file": "answers/rag_fusion__granite30_fp8.jsonl.gz",
+      "uncompressed_sha256": "05716934d353560537abb80ac3d658c5ca92a9be9e3db35bf22c30d1f0c1b299"
+    },
+    {
+      "name": "etr__granite30_fp8",
+      "method": "etr",
+      "model": "granite30_fp8",
+      "reported_f1_percent": 50.25287356321838,
+      "release_path": "conditions/cticonnect290/etr/granite30_fp8/predictions.jsonl",
+      "file": "answers/etr__granite30_fp8.jsonl.gz",
+      "uncompressed_sha256": "2c3ded7dacb3211be57357bad1c703facbb5b28ff93bc041f91f05158cfac32b"
+    },
+    {
+      "name": "a_rag__granite30_fp8",
+      "method": "a_rag",
+      "model": "granite30_fp8",
+      "reported_f1_percent": 54.633825944170766,
+      "release_path": "conditions/cticonnect290/a_rag/granite30_fp8/predictions.jsonl",
+      "file": "answers/a_rag__granite30_fp8.jsonl.gz",
+      "uncompressed_sha256": "5e8e8c41fd99db0b28befd253ebe9fca57d29dbbc482b69a530d4dc71c2391f6"
+    },
+    {
+      "name": "closed_book__gemma31_qat",
+      "method": "closed_book",
+      "model": "gemma31_qat",
+      "reported_f1_percent": 54.79310344827586,
+      "release_path": "conditions/cticonnect290/closed_book/gemma31_qat/predictions.jsonl",
+      "file": "answers/closed_book__gemma31_qat.jsonl.gz",
+      "uncompressed_sha256": "f9ca872f636f19d802271d2ff47609cd2a072e353ff7f2c92a7f358d4c34dc49"
+    },
+    {
+      "name": "naive_rag__gemma31_qat",
+      "method": "naive_rag",
+      "model": "gemma31_qat",
+      "reported_f1_percent": 57.51231527093596,
+      "release_path": "conditions/cticonnect290/naive_rag/gemma31_qat/predictions.jsonl",
+      "file": "answers/naive_rag__gemma31_qat.jsonl.gz",
+      "uncompressed_sha256": "27545ff011c353bfb5997efa9f2ab3a39f0cc94767ca61f13b9408e1daa1bff2"
+    },
+    {
+      "name": "linearrag__gemma31_qat",
+      "method": "linearrag",
+      "model": "gemma31_qat",
+      "reported_f1_percent": 34.609195402298845,
+      "release_path": "conditions/cticonnect290/linearrag/gemma31_qat/predictions.jsonl",
+      "file": "answers/linearrag__gemma31_qat.jsonl.gz",
+      "uncompressed_sha256": "2a337c90fc40b69f6272ffdb43fa0ee12091ce802cfa41f843b52e79645bb639"
+    },
+    {
+      "name": "reranked_rag__gemma31_qat",
+      "method": "reranked_rag",
+      "model": "gemma31_qat",
+      "reported_f1_percent": 57.873563218390814,
+      "release_path": "conditions/cticonnect290/reranked_rag/gemma31_qat/predictions.jsonl",
+      "file": "answers/reranked_rag__gemma31_qat.jsonl.gz",
+      "uncompressed_sha256": "f051dc2ec1c2935f2149b1fdb07febfefcc84a9dcdbe35871fb54d2dad67a678"
+    },
+    {
+      "name": "local_crag__gemma31_qat",
+      "method": "local_crag",
+      "model": "gemma31_qat",
+      "reported_f1_percent": 51.0919540229885,
+      "release_path": "conditions/cticonnect290/local_crag/gemma31_qat/predictions.jsonl",
+      "file": "answers/local_crag__gemma31_qat.jsonl.gz",
+      "uncompressed_sha256": "e2ef55c55af939a6f8b55ad29754f76fe2c2259d93da477cbf15ba8f6cdc07d3"
+    },
+    {
+      "name": "hyde__gemma31_qat",
+      "method": "hyde",
+      "model": "gemma31_qat",
+      "reported_f1_percent": 51.86206896551724,
+      "release_path": "conditions/cticonnect290/hyde/gemma31_qat/predictions.jsonl",
+      "file": "answers/hyde__gemma31_qat.jsonl.gz",
+      "uncompressed_sha256": "23988db7ea6570c404f6f37b28611ca1d762d8691854b34f34c9abbd6e50b2f6"
+    },
+    {
+      "name": "rag_fusion__gemma31_qat",
+      "method": "rag_fusion",
+      "model": "gemma31_qat",
+      "reported_f1_percent": 57.41379310344827,
+      "release_path": "conditions/cticonnect290/rag_fusion/gemma31_qat/predictions.jsonl",
+      "file": "answers/rag_fusion__gemma31_qat.jsonl.gz",
+      "uncompressed_sha256": "2fb2c1dd1d4549584dbc6a0ce3624b29e0d6dbc37f1caf81c81cc60fb49e489f"
+    },
+    {
+      "name": "etr__gemma31_qat",
+      "method": "etr",
+      "model": "gemma31_qat",
+      "reported_f1_percent": 54.82758620689655,
+      "release_path": "conditions/cticonnect290/etr/gemma31_qat/predictions.jsonl",
+      "file": "answers/etr__gemma31_qat.jsonl.gz",
+      "uncompressed_sha256": "9923a551de2024ab3e83c4d20b27ce442daf167b22328217bb397ffc773e93a7"
+    },
+    {
+      "name": "a_rag__gemma31_qat",
+      "method": "a_rag",
+      "model": "gemma31_qat",
+      "reported_f1_percent": 49.891625615763544,
+      "release_path": "conditions/cticonnect290/a_rag/gemma31_qat/predictions.jsonl",
+      "file": "answers/a_rag__gemma31_qat.jsonl.gz",
+      "uncompressed_sha256": "14e04c41d7bdd589d301317e9e63d5b37e40d675aafdd42381585fa7dc0323da"
+    },
+    {
+      "name": "closed_book__muse",
+      "method": "closed_book",
+      "model": "muse",
+      "reported_f1_percent": 51.17241379310345,
+      "release_path": "conditions/cticonnect290/closed_book/muse/predictions.jsonl",
+      "file": "answers/closed_book__muse.jsonl.gz",
+      "uncompressed_sha256": "86d2d3329d0a089be618355e3b3b6d818d77300d6d903d63152218d36b859619"
+    },
+    {
+      "name": "naive_rag__muse",
+      "method": "naive_rag",
+      "model": "muse",
+      "reported_f1_percent": 56.6896551724138,
+      "release_path": "conditions/cticonnect290/naive_rag/muse/predictions.jsonl",
+      "file": "answers/naive_rag__muse.jsonl.gz",
+      "uncompressed_sha256": "7edb366b7c4ab391340ec928c3276c8686b9e1b889a5d75402f5abf57ba1af05"
+    },
+    {
+      "name": "linearrag__muse",
+      "method": "linearrag",
+      "model": "muse",
+      "reported_f1_percent": 40.26056127780265,
+      "release_path": "conditions/cticonnect290/linearrag/muse/predictions.jsonl",
+      "file": "answers/linearrag__muse.jsonl.gz",
+      "uncompressed_sha256": "9a9501c67b99306c9a0e55b87d1d0a9e6862bdffc833220ec9388e568a6d8e8f"
+    },
+    {
+      "name": "reranked_rag__muse",
+      "method": "reranked_rag",
+      "model": "muse",
+      "reported_f1_percent": 61.14449917898194,
+      "release_path": "conditions/cticonnect290/reranked_rag/muse/predictions.jsonl",
+      "file": "answers/reranked_rag__muse.jsonl.gz",
+      "uncompressed_sha256": "3952378871c9ee66648bbb478ca9eb6af6d275a9c59d19bb768f89c287eb6fdb"
+    },
+    {
+      "name": "local_crag__muse",
+      "method": "local_crag",
+      "model": "muse",
+      "reported_f1_percent": 44.50574712643678,
+      "release_path": "conditions/cticonnect290/local_crag/muse/predictions.jsonl",
+      "file": "answers/local_crag__muse.jsonl.gz",
+      "uncompressed_sha256": "b27baf3d212610010820cc2daecb2295c97fa8e9ec20ee936f0de2b43a396ea2"
+    },
+    {
+      "name": "hyde__muse",
+      "method": "hyde",
+      "model": "muse",
+      "reported_f1_percent": 50.88505747126436,
+      "release_path": "conditions/cticonnect290/hyde/muse/predictions.jsonl",
+      "file": "answers/hyde__muse.jsonl.gz",
+      "uncompressed_sha256": "b49b61fd0a37098e269cb8f88c7b8b808e7c7aa11525d9beee2592a40b966faa"
+    },
+    {
+      "name": "rag_fusion__muse",
+      "method": "rag_fusion",
+      "model": "muse",
+      "reported_f1_percent": 56.57471264367816,
+      "release_path": "conditions/cticonnect290/rag_fusion/muse/predictions.jsonl",
+      "file": "answers/rag_fusion__muse.jsonl.gz",
+      "uncompressed_sha256": "29e5ddd9d815212d0cac41fb93b5fa12b5848d0d7c5c59dde330b41d06397a3f"
+    },
+    {
+      "name": "etr__muse",
+      "method": "etr",
+      "model": "muse",
+      "reported_f1_percent": 52.241379310344826,
+      "release_path": "conditions/cticonnect290/etr/muse/predictions.jsonl",
+      "file": "answers/etr__muse.jsonl.gz",
+      "uncompressed_sha256": "3d3f8057a5354e016e418f493d5a4a13c5ff28f4ea8d5e033b85176f197d7b1d"
+    },
+    {
+      "name": "a_rag__muse",
+      "method": "a_rag",
+      "model": "muse",
+      "reported_f1_percent": 55.03530377668309,
+      "release_path": "conditions/cticonnect290/a_rag/muse/predictions.jsonl",
+      "file": "answers/a_rag__muse.jsonl.gz",
+      "uncompressed_sha256": "d3073f9190a99add6d71f51c251606424f7f47a59c76b25e8bbeb900d7cd5df3"
+    },
+    {
+      "name": "closed_book__nemotron",
+      "method": "closed_book",
+      "model": "nemotron",
+      "reported_f1_percent": 50.0,
+      "release_path": "conditions/cticonnect290/closed_book/nemotron/predictions.jsonl",
+      "file": "answers/closed_book__nemotron.jsonl.gz",
+      "uncompressed_sha256": "88dc809cdc95f84e8d33764d9368d651b541c7f245d94e1bb231f8dbcf31a1f2"
+    },
+    {
+      "name": "naive_rag__nemotron",
+      "method": "naive_rag",
+      "model": "nemotron",
+      "reported_f1_percent": 58.73563218390805,
+      "release_path": "conditions/cticonnect290/naive_rag/nemotron/predictions.jsonl",
+      "file": "answers/naive_rag__nemotron.jsonl.gz",
+      "uncompressed_sha256": "05d1682eacd4f40d1cd0adad5b641205abfa7c09629b4ee1dd5411d1777d63cf"
+    },
+    {
+      "name": "linearrag__nemotron",
+      "method": "linearrag",
+      "model": "nemotron",
+      "reported_f1_percent": 38.747126436781606,
+      "release_path": "conditions/cticonnect290/linearrag/nemotron/predictions.jsonl",
+      "file": "answers/linearrag__nemotron.jsonl.gz",
+      "uncompressed_sha256": "c90ae492f2df9b80a69dcf3ab0a924ffe3d9c846cf8d3a2bc4ba3d203bfaf7fc"
+    },
+    {
+      "name": "reranked_rag__nemotron",
+      "method": "reranked_rag",
+      "model": "nemotron",
+      "reported_f1_percent": 61.747126436781606,
+      "release_path": "conditions/cticonnect290/reranked_rag/nemotron/predictions.jsonl",
+      "file": "answers/reranked_rag__nemotron.jsonl.gz",
+      "uncompressed_sha256": "cc21a09e74312cf50904be8a5ec4a7c39f8e23b93a8f205921eb65adad2a6e25"
+    },
+    {
+      "name": "local_crag__nemotron",
+      "method": "local_crag",
+      "model": "nemotron",
+      "reported_f1_percent": 50.91954022988505,
+      "release_path": "conditions/cticonnect290/local_crag/nemotron/predictions.jsonl",
+      "file": "answers/local_crag__nemotron.jsonl.gz",
+      "uncompressed_sha256": "ab747a6f73b192eff871722d44083c31b341964de20480a9d64328e4f69fe6ac"
+    },
+    {
+      "name": "hyde__nemotron",
+      "method": "hyde",
+      "model": "nemotron",
+      "reported_f1_percent": 53.67816091954023,
+      "release_path": "conditions/cticonnect290/hyde/nemotron/predictions.jsonl",
+      "file": "answers/hyde__nemotron.jsonl.gz",
+      "uncompressed_sha256": "781e467e76230917f6691e69694a13c2c589ccab8f5035f7f4449a00cd7f289f"
+    },
+    {
+      "name": "rag_fusion__nemotron",
+      "method": "rag_fusion",
+      "model": "nemotron",
+      "reported_f1_percent": 58.908045977011504,
+      "release_path": "conditions/cticonnect290/rag_fusion/nemotron/predictions.jsonl",
+      "file": "answers/rag_fusion__nemotron.jsonl.gz",
+      "uncompressed_sha256": "a14fe2105f58874a6d2715d21ab87bc48f46758bb570ba8ee07cdf130f45b60a"
+    },
+    {
+      "name": "etr__nemotron",
+      "method": "etr",
+      "model": "nemotron",
+      "reported_f1_percent": 41.37931034482759,
+      "release_path": "conditions/cticonnect290/etr/nemotron/predictions.jsonl",
+      "file": "answers/etr__nemotron.jsonl.gz",
+      "uncompressed_sha256": "f5c8a664c3e83a1e88f7b071fa3a80e834554219f160b21d3889871a3e820761"
+    },
+    {
+      "name": "a_rag__nemotron",
+      "method": "a_rag",
+      "model": "nemotron",
+      "reported_f1_percent": 53.90968801313629,
+      "release_path": "conditions/cticonnect290/a_rag/nemotron/predictions.jsonl",
+      "file": "answers/a_rag__nemotron.jsonl.gz",
+      "uncompressed_sha256": "c9f4513b160a94c2368f4e93608a39f2d67ac8d35e3eb2d4867321792d60947b"
+    },
+    {
+      "name": "closed_book__gptoss",
+      "method": "closed_book",
+      "model": "gptoss",
+      "reported_f1_percent": 40.3448275862069,
+      "release_path": "conditions/cticonnect290/closed_book/gptoss/predictions.jsonl",
+      "file": "answers/closed_book__gptoss.jsonl.gz",
+      "uncompressed_sha256": "880d10cf253378fccddd02d094d96699795076e0d378cb44913c13b47cea3c19"
+    },
+    {
+      "name": "naive_rag__gptoss",
+      "method": "naive_rag",
+      "model": "gptoss",
+      "reported_f1_percent": 60.0,
+      "release_path": "conditions/cticonnect290/naive_rag/gptoss/predictions.jsonl",
+      "file": "answers/naive_rag__gptoss.jsonl.gz",
+      "uncompressed_sha256": "24ec312b3b2df320ce6bf68ee4076ffccd0eb3025de94d2db824f7610e6d0c4e"
+    },
+    {
+      "name": "linearrag__gptoss",
+      "method": "linearrag",
+      "model": "gptoss",
+      "reported_f1_percent": 48.2183908045977,
+      "release_path": "conditions/cticonnect290/linearrag/gptoss/predictions.jsonl",
+      "file": "answers/linearrag__gptoss.jsonl.gz",
+      "uncompressed_sha256": "372186ba96cc5e5f0371cf7e2cbf1173fcc6d850cb4228476b1beb5a99e52007"
+    },
+    {
+      "name": "reranked_rag__gptoss",
+      "method": "reranked_rag",
+      "model": "gptoss",
+      "reported_f1_percent": 63.678160919540225,
+      "release_path": "conditions/cticonnect290/reranked_rag/gptoss/predictions.jsonl",
+      "file": "answers/reranked_rag__gptoss.jsonl.gz",
+      "uncompressed_sha256": "42d2245ecb5759953cc2ff361399d4284f8e90c4ee850315ffa9c0b72104b77c"
+    },
+    {
+      "name": "local_crag__gptoss",
+      "method": "local_crag",
+      "model": "gptoss",
+      "reported_f1_percent": 42.87356321839081,
+      "release_path": "conditions/cticonnect290/local_crag/gptoss/predictions.jsonl",
+      "file": "answers/local_crag__gptoss.jsonl.gz",
+      "uncompressed_sha256": "685ea3c975c535f79d7ea8aa0141259b5a27293d10b41dc668900a3b9203a33c"
+    },
+    {
+      "name": "hyde__gptoss",
+      "method": "hyde",
+      "model": "gptoss",
+      "reported_f1_percent": 51.05747126436781,
+      "release_path": "conditions/cticonnect290/hyde/gptoss/predictions.jsonl",
+      "file": "answers/hyde__gptoss.jsonl.gz",
+      "uncompressed_sha256": "7dada4116984007a6bd216f481b05c4fbae3fff30c6170f7211820e9a623fa09"
+    },
+    {
+      "name": "rag_fusion__gptoss",
+      "method": "rag_fusion",
+      "model": "gptoss",
+      "reported_f1_percent": 58.04597701149425,
+      "release_path": "conditions/cticonnect290/rag_fusion/gptoss/predictions.jsonl",
+      "file": "answers/rag_fusion__gptoss.jsonl.gz",
+      "uncompressed_sha256": "970c79c64826404ccab47b6692c428844d7e768ba534360d2f4d98bb5e4b771e"
+    },
+    {
+      "name": "etr__gptoss",
+      "method": "etr",
+      "model": "gptoss",
+      "reported_f1_percent": 55.195402298850574,
+      "release_path": "conditions/cticonnect290/etr/gptoss/predictions.jsonl",
+      "file": "answers/etr__gptoss.jsonl.gz",
+      "uncompressed_sha256": "3c2fc4bec7ebed291810bd60a1fd65768a1239922870b6959be70e29fbb56e90"
+    },
+    {
+      "name": "a_rag__gptoss",
+      "method": "a_rag",
+      "model": "gptoss",
+      "reported_f1_percent": 43.67816091954023,
+      "release_path": "conditions/cticonnect290/a_rag/gptoss/predictions.jsonl",
+      "file": "answers/a_rag__gptoss.jsonl.gz",
+      "uncompressed_sha256": "fb3daaa5d2175d3d84fa9013c00e9c2122d43a9871c32147e421fe91093e3405"
+    },
+    {
+      "name": "closed_book__qwen38",
+      "method": "closed_book",
+      "model": "qwen38",
+      "reported_f1_percent": 51.78868258178603,
+      "release_path": "conditions/cticonnect290/closed_book/qwen38/predictions.jsonl",
+      "file": "answers/closed_book__qwen38.jsonl.gz",
+      "uncompressed_sha256": "c3f9b076125b2bf0f3a4584c3cf33605f52f6c6300e9347599e8bd3b80ab82c5"
+    },
+    {
+      "name": "naive_rag__qwen38",
+      "method": "naive_rag",
+      "model": "qwen38",
+      "reported_f1_percent": 55.24712643678161,
+      "release_path": "conditions/cticonnect290/naive_rag/qwen38/predictions.jsonl",
+      "file": "answers/naive_rag__qwen38.jsonl.gz",
+      "uncompressed_sha256": "643dab21e8a78a413e4c070de3be719ad6d1789a54f8cbf9db8c06270d5ec784"
+    },
+    {
+      "name": "linearrag__qwen38",
+      "method": "linearrag",
+      "model": "qwen38",
+      "reported_f1_percent": 32.735632183908045,
+      "release_path": "conditions/cticonnect290/linearrag/qwen38/predictions.jsonl",
+      "file": "answers/linearrag__qwen38.jsonl.gz",
+      "uncompressed_sha256": "bd83b4b5754f49607eba38ce21b9a4794bf3beb0c4845037c24555708ebc3b55"
+    },
+    {
+      "name": "reranked_rag__qwen38",
+      "method": "reranked_rag",
+      "model": "qwen38",
+      "reported_f1_percent": 59.64367816091954,
+      "release_path": "conditions/cticonnect290/reranked_rag/qwen38/predictions.jsonl",
+      "file": "answers/reranked_rag__qwen38.jsonl.gz",
+      "uncompressed_sha256": "fbfd64fa4cca5ce6ed3acf57abd906688d5d8a6543e9a72b0211ba7063b611e3"
+    },
+    {
+      "name": "local_crag__qwen38",
+      "method": "local_crag",
+      "model": "qwen38",
+      "reported_f1_percent": 52.931855500821015,
+      "release_path": "conditions/cticonnect290/local_crag/qwen38/predictions.jsonl",
+      "file": "answers/local_crag__qwen38.jsonl.gz",
+      "uncompressed_sha256": "8859d821819c1d95c370c294652ec822805241dfefba01118fb6c34f9580115a"
+    },
+    {
+      "name": "hyde__qwen38",
+      "method": "hyde",
+      "model": "qwen38",
+      "reported_f1_percent": 54.4022988505747,
+      "release_path": "conditions/cticonnect290/hyde/qwen38/predictions.jsonl",
+      "file": "answers/hyde__qwen38.jsonl.gz",
+      "uncompressed_sha256": "a9e8b916877d95c598fef329a7a89ab05e932cce470a411fa898ad8d5a2c8118"
+    },
+    {
+      "name": "rag_fusion__qwen38",
+      "method": "rag_fusion",
+      "model": "qwen38",
+      "reported_f1_percent": 58.712643678160916,
+      "release_path": "conditions/cticonnect290/rag_fusion/qwen38/predictions.jsonl",
+      "file": "answers/rag_fusion__qwen38.jsonl.gz",
+      "uncompressed_sha256": "4b59f33bb72929aa2ad56c9f3a3eff017bacf700f9d7abdf3002113f07d7f31a"
+    },
+    {
+      "name": "etr__qwen38",
+      "method": "etr",
+      "model": "qwen38",
+      "reported_f1_percent": 48.86206896551724,
+      "release_path": "conditions/cticonnect290/etr/qwen38/predictions.jsonl",
+      "file": "answers/etr__qwen38.jsonl.gz",
+      "uncompressed_sha256": "cd212cd8efda0e0f6a187764f5e486c3cc8c8d15cf648d7eaa48113d1fafcee5"
+    },
+    {
+      "name": "a_rag__qwen38",
+      "method": "a_rag",
+      "model": "qwen38",
+      "reported_f1_percent": 60.321839080459775,
+      "release_path": "conditions/cticonnect290/a_rag/qwen38/predictions.jsonl",
+      "file": "answers/a_rag__qwen38.jsonl.gz",
+      "uncompressed_sha256": "f14e2d0d13a51f65eef79d0ebc4da88f8fdb388245a26c196992c88c369e011b"
+    }
+  ],
+  "gold": {
+    "file": "gold.jsonl",
+    "uncompressed_sha256": "8adc1dde139532b1be76774ca296b6a801159dba477d0df88a736e6b1c11097b"
+  },
+  "retrieval": {
+    "file": "retrieval.jsonl.gz",
+    "uncompressed_sha256": "4fa09ea6a42c121339b9bd4200ca937556caab75efd5a961c9cb17ea7db07052"
+  },
+  "selected_predictions": {
+    "file": "selected_predictions.jsonl",
+    "uncompressed_sha256": "fd2c0655a50f9e1ba447a71e3ad5f51c15f4f70f873bc6990b58fdbcc126d2d6"
+  },
+  "exclusions": {
+    "file": "exclusions.json",
+    "uncompressed_sha256": "38df6ec05405b1c5036681bb1d7aac65392513483afd25a6341ea33e7e952d1f"
+  },
+  "scorer": {
+    "file": "official_metrics.py",
+    "uncompressed_sha256": "6ccceec95b1b45444f86329e3f155a236b26fd0c4faca2e42738963fe90bf4b5"
+  }
+}

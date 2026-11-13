@@ -1,0 +1,13 @@
+{
+  "original_reference_count": 121295,
+  "benchmark_id_records_removed": 607,
+  "exact_description_records_removed": 17,
+  "additional_union_records_removed": 429,
+  "filtered_reference_count": 120242,
+  "source_snapshot_dates": null,
+  "raw_corpus_included": false,
+  "source_artifact_hashes": {
+    "documents.jsonl": "aae5030a87f559ab25f78a22e6edeb5131e70b100848d20f6a5ea98bf2c62b1f",
+    "document_embeddings.npy": "aa9285b81255f5edc0104c98b7bbbf5a458ddb6685e5b1e956da0c97c8739df6"
+  }
+}

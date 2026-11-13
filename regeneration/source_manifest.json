@@ -1,0 +1,324 @@
+[
+  {
+    "original_path": "logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/prepare_crag.py",
+    "original_sha256": "5f6a5bf23d72c85df1f179ee70dcd2336e8434dde12d21a1c19930044c4d8d2a",
+    "public_path": "sources/logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/prepare_crag.py",
+    "public_sha256": "fd7888a102de13447de2c143d6faea67e29e7a30a406d85cd9eee2c3a73c1416",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/prepare_linear_native.py",
+    "original_sha256": "b0012d2f9ee4b14c9777c31d39cfa76f9815759e7aff97fb79f939d64237bee0",
+    "public_path": "sources/logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/prepare_linear_native.py",
+    "public_sha256": "4aaaa0f9c9f9a4d16beae2dc500a8ad7b3b8e954543b6b24aeca352dc76b38a3",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/prepare_reranked_windowed.py",
+    "original_sha256": "f888039e6b7b4df87ecaf6f16f12dbb3b6b614489eabc07f4e3c921f2689cd48",
+    "public_path": "sources/logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/prepare_reranked_windowed.py",
+    "public_sha256": "11bcf02d2add676f27e55bd0668c29bc560da066b8e077cd2273fd06916178e5",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/query_retrieval.py",
+    "original_sha256": "c3c59b2f07563e6eb521ab38260bfb7c5039a05357c3ba98f4d51a6cc16fcbf8",
+    "public_path": "sources/logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/query_retrieval.py",
+    "public_sha256": "3de53855f779653809b17940762480ffcde562f051cc4809601b6042dfe96882",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/sparse_service.py",
+    "original_sha256": "38d7bf7520cba9381f1ce959f39d0668b35a88a88205ced8ff25fc7a2872d034",
+    "public_path": "sources/logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/sparse_service.py",
+    "public_sha256": "ba929cdc942e1f31f6b8c95eb7cc10b58a9d6f1d281d5e17612edd2120bf5732",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/prepare_retrieval.py",
+    "original_sha256": "af27d651ec468853220ea50a07d4b2e58d27fe6f09c1ae919e1606e05227dbea",
+    "public_path": "sources/logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/prepare_retrieval.py",
+    "public_sha256": "a0bf83a367a05c3d64d3b34d9d0afc46e681d6edd4bcd395a66233a7fb6e8c67",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/linear_ner_worker.py",
+    "original_sha256": "27d2778254fc30d8a0407060fbc8f031d50f25123e4f4590aed42c065422bacd",
+    "public_path": "sources/logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/linear_ner_worker.py",
+    "public_sha256": "5b2051791d46546367aef1959f2254142dc94d88708375c4fb73af051d452dc9",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/agent_run_storage_safe_20261108.py",
+    "original_sha256": "e209779eca0b6f543486195ecf9b9999a53388146e49378a69841a19f0b68f5a",
+    "public_path": "sources/logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/agent_run_storage_safe_20261108.py",
+    "public_sha256": "2c8861d3d985e4c0d7b3675047bea775be9ef4c5b10859e3ed984730bb366c79",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/agent_run.py",
+    "original_sha256": "2ca597515290e4c420122b5e0d696d677ae20a8b11edccff4e13ce6ef53678af",
+    "public_path": "sources/logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/agent_run.py",
+    "public_sha256": "cdfbe10e8d78a1cfcff6f61a5ac363fa3fa5ca2087e2eaa8d80fa225c7053417",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/agent_rank.py",
+    "original_sha256": "b3b1149e46d39fe48413c8de7e6e0787b674ca1bb0ec3648cfe96d3195c0a10d",
+    "public_path": "sources/logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/agent_rank.py",
+    "public_sha256": "5372f344362d06893b928d127c32b94a4781b8e90c56a018426d9f637f8429d0",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/generate_queries.py",
+    "original_sha256": "0aa073f30fe15fd3b877b5a6c77c14996949a5b49ae36ea3ac0ff382e80e1ca6",
+    "public_path": "sources/logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/generate_queries.py",
+    "public_sha256": "bc1f4eb9b1f723d950c9f44978a583e5909eaa926bab4c4be185f9946d839637",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/test_adapters.py",
+    "original_sha256": "98d149a7d5414879d8368e5f12187a311ee6974b1287367e1a5cdb9e4a99b114",
+    "public_path": "sources/logs/experiments/ctibench1000_filtered_architectures_20261107_v1/code/test_adapters.py",
+    "public_sha256": "a531f2cc17287b7f91cf2556c2515d3c37eac163a26741411183a9ce0bd0fc61",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/prepare_crag.py",
+    "original_sha256": "addf4277eb609909b6123ca4051d9b4c38545e4cfa2b3ac0290e7ed5754fdcc6",
+    "public_path": "sources/logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/prepare_crag.py",
+    "public_sha256": "d86c6fddc25e737c9fa50fdd808d0a14da8e2ceaf1d2d157a7614d5ca2012056",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/release.py",
+    "original_sha256": "16a12d8efa73f90b744e8f5240c06c545ce5ffb753629b08c3c72c4708b59291",
+    "public_path": "sources/logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/release.py",
+    "public_sha256": "16a12d8efa73f90b744e8f5240c06c545ce5ffb753629b08c3c72c4708b59291",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/condition.py",
+    "original_sha256": "5076744e0bd9dac3d4c4e2b73e929a1980c8a530c75390053b11a8919f318877",
+    "public_path": "sources/logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/condition.py",
+    "public_sha256": "359a35e852e205d7b643df53203999f5e69c71bd06892b2040742570e647a4e2",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/common.py",
+    "original_sha256": "5187447504d794f0e9144a2146e8945c6e84ac66a2a1c43e618c5e3f9efeb6ca",
+    "public_path": "sources/logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/common.py",
+    "public_sha256": "5187447504d794f0e9144a2146e8945c6e84ac66a2a1c43e618c5e3f9efeb6ca",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/build_adapters.py",
+    "original_sha256": "390f6090f58c1a5b66c56a95eaa40cacf9cf6fbcffef507e5b3e086813b349dc",
+    "public_path": "sources/logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/build_adapters.py",
+    "public_sha256": "390f6090f58c1a5b66c56a95eaa40cacf9cf6fbcffef507e5b3e086813b349dc",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/query_retrieval.py",
+    "original_sha256": "df9b1526b62880a8f2ecc8f11b6f7e4ea590210865bf11817e4ace99d9cba0d6",
+    "public_path": "sources/logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/query_retrieval.py",
+    "public_sha256": "8f2846d60b6ed7fb686fddbedb65f1b63715ea8a6bc844eb91ef63a327ffe25e",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/sparse_service.py",
+    "original_sha256": "6767ce4576e9d219b0abeca091306991ac4dc6165a15fdb0c460e1e867f846c9",
+    "public_path": "sources/logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/sparse_service.py",
+    "public_sha256": "fd286217f4a8531ee73453466ee6b10e354dc82b0487ec264a5fd85108e52c0c",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/prepare_linear.py",
+    "original_sha256": "feefea5733a79c6244615ededda7e69a8a17912490dce1de5028704b799227df",
+    "public_path": "sources/logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/prepare_linear.py",
+    "public_sha256": "f2a97afa1083778af7453551af3ad31a3b2476c8091509dcafe405eccabdd983",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/linear_ner_worker.py",
+    "original_sha256": "2b0359ba1e524dedea1b464aacb130d7716ed1dcc82d0ddd3f02e62f567ebab7",
+    "public_path": "sources/logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/linear_ner_worker.py",
+    "public_sha256": "43449a262fe27ec816a8b2b0f093488b3fb78f6aafa9fb7b0a91206feebeac85",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/agent_run.py",
+    "original_sha256": "5db50cd778d349fc188e051331992a77f8db54242578c5ec348155a7acaee3ab",
+    "public_path": "sources/logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/agent_run.py",
+    "public_sha256": "32867bcb5c935fe8467d0c6216e8fdae29665fde96c679c50f61d3cb23101c6a",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/agent_rank.py",
+    "original_sha256": "a85d3de94257e2129b58e7124ff50ab8b7eae107216c99645661496aae0bc504",
+    "public_path": "sources/logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/agent_rank.py",
+    "public_sha256": "acc23e7ab060f80f986bc60a70e691f51dedb77e06924f7f2a88ed9243112e5d",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/generate_queries.py",
+    "original_sha256": "a114863502f3dd510cb88bf5a1853834cf9e629095b6e48207fd15a37f43c2bf",
+    "public_path": "sources/logs/experiments/cticonnect_rcm290_full_suite_20261107_v1/code/full/generate_queries.py",
+    "public_sha256": "8be5293f796f6021a46b0421429dac1f65aeb7ab708752239bd6a7273de03625",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "analysis/ctibench1000_stronger_baselines_20261110/run.py",
+    "original_sha256": "0eea3e9226fb670a134e90e4a3916ca194fea51a6c248a08755078b804a58233",
+    "public_path": "sources/analysis/ctibench1000_stronger_baselines_20261110/run.py",
+    "public_sha256": "0eea3e9226fb670a134e90e4a3916ca194fea51a6c248a08755078b804a58233",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "analysis/swcv1000_statistics_20261108/compute.py",
+    "original_sha256": "0092f882e4890d53ac982b4a67ea216796f979735a509400becf7d570c3bea98",
+    "public_path": "sources/analysis/swcv1000_statistics_20261108/compute.py",
+    "public_sha256": "013a59f9c2b38e12bd70765deca0ed5df7a7250d0aa794cffeee6c36b060ae68",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "analysis/ctibench1000_high_failure_recovery_20261110/score_crag_fallback.py",
+    "original_sha256": "aedc12137ed503465d78517036ab29c1cbc8dfbe45314abfd8b43080cad88c75",
+    "public_path": "sources/analysis/ctibench1000_high_failure_recovery_20261110/score_crag_fallback.py",
+    "public_sha256": "aedc12137ed503465d78517036ab29c1cbc8dfbe45314abfd8b43080cad88c75",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "analysis/ctibench1000_high_failure_recovery_20261110/prepare.py",
+    "original_sha256": "e2054f7c34e96a38d74ae83bd169a479e00ec4b36ff16a369a25058acf7e3182",
+    "public_path": "sources/analysis/ctibench1000_high_failure_recovery_20261110/prepare.py",
+    "public_sha256": "e2054f7c34e96a38d74ae83bd169a479e00ec4b36ff16a369a25058acf7e3182",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "analysis/cticonnect_rcm290_pipeline_recovery_20261111/query_retrieval.py",
+    "original_sha256": "9fea0cbd0e3893537b43abc3172cb85bb53fce8861082d3fed148a349fc0f111",
+    "public_path": "sources/analysis/cticonnect_rcm290_pipeline_recovery_20261111/query_retrieval.py",
+    "public_sha256": "3555cc599ee6a59ea5d121c3e6734d4eea4e0360f48798b27f6802829681b889",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "analysis/cticonnect_rcm290_pipeline_recovery_20261111/run.py",
+    "original_sha256": "4c01bee60f1f75d66eb8c2522b7987ae0676ab2660a591eda8d1357abdf82e54",
+    "public_path": "sources/analysis/cticonnect_rcm290_pipeline_recovery_20261111/run.py",
+    "public_sha256": "93c4c54471cd377f7167aff76ddf9046b28ea3fe86bcb9edae9aca6e31bfca59",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "analysis/phi4_arag_parser_recovery_20261111/full_agent.py",
+    "original_sha256": "4b46799c8678ad8e59b4dd8e689c49fda03e993962e8e6e506398f9442d74ce8",
+    "public_path": "sources/analysis/phi4_arag_parser_recovery_20261111/full_agent.py",
+    "public_sha256": "fd5e6120b6114d64773c6aae8f61963af03172bd539d5231eda3dcf3de792f2b",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "analysis/phi4_arag_parser_recovery_20261111/parser_plugin.py",
+    "original_sha256": "1f24b67013fa4c9f9825965c7d5cf4e3e2072ed34085eaca174789253f7a6dd3",
+    "public_path": "sources/analysis/phi4_arag_parser_recovery_20261111/parser_plugin.py",
+    "public_sha256": "1f24b67013fa4c9f9825965c7d5cf4e3e2072ed34085eaca174789253f7a6dd3",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "analysis/phi4_arag_parser_recovery_20261111/run.py",
+    "original_sha256": "a5a99b8f81d303a7f20be4c4fc6dd975964d68018327af9e25e8a8c3a9c2e77f",
+    "public_path": "sources/analysis/phi4_arag_parser_recovery_20261111/run.py",
+    "public_sha256": "f7db05c6fa9053ce82e7d4d8837ba95c3f6d363bef0d54a7e9f4aac2f1c35da5",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "analysis/phi4_arag_parser_recovery_20261111/check_parser.py",
+    "original_sha256": "1fd246c162d0b9e914953644dc082951d181dfd008df28ee6b160473746135ea",
+    "public_path": "sources/analysis/phi4_arag_parser_recovery_20261111/check_parser.py",
+    "public_sha256": "1fd246c162d0b9e914953644dc082951d181dfd008df28ee6b160473746135ea",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "analysis/phi4_arag_parser_recovery_20261111/template_tools.py",
+    "original_sha256": "a14dcef2330afea5dc6f81d2147c8a2bdb36b8ea6ba9df64520abe7f94c65149",
+    "public_path": "sources/analysis/phi4_arag_parser_recovery_20261111/template_tools.py",
+    "public_sha256": "a14dcef2330afea5dc6f81d2147c8a2bdb36b8ea6ba9df64520abe7f94c65149",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/validate_cpu.py",
+    "original_sha256": "9e52b2bc8ffd18489bd8e6959c037e5b5ade1ca96cf0356e0999df838c1314ee",
+    "public_path": "sources/logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/validate_cpu.py",
+    "public_sha256": "9e52b2bc8ffd18489bd8e6959c037e5b5ade1ca96cf0356e0999df838c1314ee",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/prepare.py",
+    "original_sha256": "848c7c2cf87e1cecfc76e787279e285fa74b4c12c7ec11c4c5eb813be1a500f7",
+    "public_path": "sources/logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/prepare.py",
+    "public_sha256": "848c7c2cf87e1cecfc76e787279e285fa74b4c12c7ec11c4c5eb813be1a500f7",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/test_contracts.py",
+    "original_sha256": "cf0893553b6ae868ac185c90af64dd26d26c618b61de6a76553c48990e85a349",
+    "public_path": "sources/logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/test_contracts.py",
+    "public_sha256": "cf0893553b6ae868ac185c90af64dd26d26c618b61de6a76553c48990e85a349",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/workload.py",
+    "original_sha256": "ec3ff07d36d4573d3938e52dd603e0fd0008fb6804342c5e7150d4fca64832c5",
+    "public_path": "sources/logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/workload.py",
+    "public_sha256": "ec3ff07d36d4573d3938e52dd603e0fd0008fb6804342c5e7150d4fca64832c5",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/contracts.py",
+    "original_sha256": "1a6d125251e136d26c29f3d5fee4bf3e4acdd88a5f308400d5fc422fa9adf237",
+    "public_path": "sources/logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/contracts.py",
+    "public_sha256": "1a6d125251e136d26c29f3d5fee4bf3e4acdd88a5f308400d5fc422fa9adf237",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/freeze.py",
+    "original_sha256": "109f600b45e6a0ceab316b831d7d2e9a4e42260749a2578cd69e0d9a6fa25587",
+    "public_path": "sources/logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/freeze.py",
+    "public_sha256": "109f600b45e6a0ceab316b831d7d2e9a4e42260749a2578cd69e0d9a6fa25587",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/shared.py",
+    "original_sha256": "87e62519e1c7af1a1e3d54040faa52dfa6c8bd589a8f97d8089a60a42e0c6a8f",
+    "public_path": "sources/logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/shared.py",
+    "public_sha256": "1ecb5ff0d0ddc8668b55ef0061bb57bee7e757ee66707430c213f814637f1285",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/parser.py",
+    "original_sha256": "62b6bb96c1b31e3ddaa19119a9b366c9fd2fe093b65885da52100a25fcd3bdba",
+    "public_path": "sources/logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/parser.py",
+    "public_sha256": "62b6bb96c1b31e3ddaa19119a9b366c9fd2fe093b65885da52100a25fcd3bdba",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/download_evaluator.py",
+    "original_sha256": "e30c01f5bdedf3069b2539526d677c4fe4f50eb5723e96fde765af3ba2d876e2",
+    "public_path": "sources/logs/experiments/rcm335_crag_local_llama_pilot_20261023_v1/code/download_evaluator.py",
+    "public_sha256": "e30c01f5bdedf3069b2539526d677c4fe4f50eb5723e96fde765af3ba2d876e2",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "analysis/near_duplicate_description_gpu_20261107/run.py",
+    "original_sha256": "f8440588e3f211632732119aae5c6e55a118d46a27b2e1c4cb9baacb5e196f40",
+    "public_path": "sources/analysis/near_duplicate_description_gpu_20261107/run.py",
+    "public_sha256": "4c63a326b820a644d483ae943d74cda640ea8845e802fd4387067da07105efd7",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  },
+  {
+    "original_path": "analysis/near_duplicate_description_gpu_20261107/embed.py",
+    "original_sha256": "c3bddbb8420bad94bf0a75a3451c02acd5f08d6f7ca0f86be1d95e9cb1d0f60c",
+    "public_path": "sources/analysis/near_duplicate_description_gpu_20261107/embed.py",
+    "public_sha256": "cb80d36042614f7b1e206701e3bef617375a3400c0e114d0e1c2615a6d50cf3e",
+    "sanitization": "Workspace/asset prefixes replaced; algorithm unchanged"
+  }
+]

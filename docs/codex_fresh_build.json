@@ -1,0 +1,25 @@
+{
+  "records": 120238,
+  "hardware": "2 NVIDIA RTX 4090 GPUs",
+  "workers_per_gpu": 16,
+  "encoder_replicas": 2,
+  "total_wall_s": 1887.617627608939,
+  "longest_worker_encoding_and_write_s": 1879.119070801069,
+  "scope": "Fresh encoding, tokenization, window pooling and array writes. Warmup and model load separate. Alternating corpus rows across two independent GPUs.",
+  "worker_reports": [
+    {
+      "rows": 60119,
+      "windows": 60197,
+      "encode_and_write_s": 1879.119070801069,
+      "model_load_s": 2.234429568052292
+    },
+    {
+      "rows": 60119,
+      "windows": 60168,
+      "encode_and_write_s": 1834.760340917972,
+      "model_load_s": 2.2727990000275895
+    }
+  ],
+  "vector_validation": "Both shards have 60,119 finite unit-normalized FP32 rows, 2,560 dimensions.",
+  "protocol_sha256": "008b8c6eda79d4b0c9e46aa06349b750daf7844adc3a77e8052091791a09de32"
+}

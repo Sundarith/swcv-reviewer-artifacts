@@ -1,0 +1,699 @@
+{
+  "release": "v1.0.0/rcm_results_and_protocols.zip",
+  "conditions": [
+    {
+      "name": "arag__gemma31_qat",
+      "file": "answers/arag__gemma31_qat.jsonl.gz",
+      "release_path": "conditions/ctibench1000/arag/gemma31_qat/predictions.jsonl",
+      "uncompressed_sha256": "3a14bd69acb021a57cf991f34c02087124d140f0253517ec36fefbcea75ff22c",
+      "reported_f1_percent": 69.92999999999999
+    },
+    {
+      "name": "arag__gemmae4b",
+      "file": "answers/arag__gemmae4b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/arag/gemmae4b/predictions.jsonl",
+      "uncompressed_sha256": "afe7c56b69b6e3da0e84552ba78594c18a2400a3304cc2ae5527821074c34de2",
+      "reported_f1_percent": 70.38333333333334
+    },
+    {
+      "name": "arag__gptoss",
+      "file": "answers/arag__gptoss.jsonl.gz",
+      "release_path": "conditions/ctibench1000/arag/gptoss/predictions.jsonl",
+      "uncompressed_sha256": "4a175bdd5de6a54cbe0265577d4a715c8c67f9138254612f621462d800d3ff46",
+      "reported_f1_percent": 52.1
+    },
+    {
+      "name": "arag__granite30_fp8",
+      "file": "answers/arag__granite30_fp8.jsonl.gz",
+      "release_path": "conditions/ctibench1000/arag/granite30_fp8/predictions.jsonl",
+      "uncompressed_sha256": "1e00178bbaec94429a0e1706fbeebe496f526a7c3af9c8ac576cc0eba791e11a",
+      "reported_f1_percent": 72.65523809523809
+    },
+    {
+      "name": "arag__granite8b",
+      "file": "answers/arag__granite8b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/arag/granite8b/predictions.jsonl",
+      "uncompressed_sha256": "2e3a5b3a28bf8d075d76afc1ef59ec07870bc79720c435fe025b4e7dd32ed3c4",
+      "reported_f1_percent": 64.32524531024531
+    },
+    {
+      "name": "arag__llama",
+      "file": "answers/arag__llama.jsonl.gz",
+      "release_path": "conditions/ctibench1000/arag/llama/predictions.jsonl",
+      "uncompressed_sha256": "4570fccb7285d50e66073db28a4cc5eb78eb045cdf81b2476cca75d2890fa38d",
+      "reported_f1_percent": 38.01666666666667
+    },
+    {
+      "name": "arag__muse",
+      "file": "answers/arag__muse.jsonl.gz",
+      "release_path": "conditions/ctibench1000/arag/muse/predictions.jsonl",
+      "uncompressed_sha256": "c4d2a0d2631d50af0b6ee57bd15e133aa090c66759f1e7e5c0aad7454005173f",
+      "reported_f1_percent": 69.51263572818618
+    },
+    {
+      "name": "arag__nemotron",
+      "file": "answers/arag__nemotron.jsonl.gz",
+      "release_path": "conditions/ctibench1000/arag/nemotron/predictions.jsonl",
+      "uncompressed_sha256": "c70f315972612b7f6b61110356fa634686cf6c4e0d9cd8a35451fdd54fc9a503",
+      "reported_f1_percent": 68.01666666666665
+    },
+    {
+      "name": "arag__phi",
+      "file": "answers/arag__phi.jsonl.gz",
+      "release_path": "conditions/ctibench1000/arag/phi/predictions.jsonl",
+      "uncompressed_sha256": "e7a2ae751050cb23a5f7852c2cedf5a2173f61de5b2ae76ae3e18e7f3b3612eb",
+      "reported_f1_percent": 57.21666666666666
+    },
+    {
+      "name": "arag__qwen",
+      "file": "answers/arag__qwen.jsonl.gz",
+      "release_path": "conditions/ctibench1000/arag/qwen/predictions.jsonl",
+      "uncompressed_sha256": "ce87f8bb248167ff98d0d6c421ea5c8f50ea13c0a010dd2b1c567417a603370f",
+      "reported_f1_percent": 65.32857142857144
+    },
+    {
+      "name": "arag__qwen38",
+      "file": "answers/arag__qwen38.jsonl.gz",
+      "release_path": "conditions/ctibench1000/arag/qwen38/predictions.jsonl",
+      "uncompressed_sha256": "b738fb21ffe8680383287109a347c963e636efed21f2021f06d522f62afbe6c6",
+      "reported_f1_percent": 76.37666666666667
+    },
+    {
+      "name": "closed_book__gemma31_qat",
+      "file": "answers/closed_book__gemma31_qat.jsonl.gz",
+      "release_path": "conditions/ctibench1000/closed_book/gemma31_qat/predictions.jsonl",
+      "uncompressed_sha256": "ac315efa989d39e79673f0f4ac5ef1050199632670e28bfe59601205cea00bf2",
+      "reported_f1_percent": 66.36190476190475
+    },
+    {
+      "name": "closed_book__gemmae4b",
+      "file": "answers/closed_book__gemmae4b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/closed_book/gemmae4b/predictions.jsonl",
+      "uncompressed_sha256": "a7ad7eed41778580dabb910b2cf4f0df878a8b9f67094a69b3682e7194d9e841",
+      "reported_f1_percent": 61.73
+    },
+    {
+      "name": "closed_book__gptoss",
+      "file": "answers/closed_book__gptoss.jsonl.gz",
+      "release_path": "conditions/ctibench1000/closed_book/gptoss/predictions.jsonl",
+      "uncompressed_sha256": "8c6f0106b6e1cada682fc4f2add4c24856789f9d3ef9f059f51c822692c226c4",
+      "reported_f1_percent": 60.66666666666666
+    },
+    {
+      "name": "closed_book__granite30_fp8",
+      "file": "answers/closed_book__granite30_fp8.jsonl.gz",
+      "release_path": "conditions/ctibench1000/closed_book/granite30_fp8/predictions.jsonl",
+      "uncompressed_sha256": "18088f99094470a376b6a18738a2797c23c0fdc74ca003f969b5556c595d42df",
+      "reported_f1_percent": 57.47888888888889
+    },
+    {
+      "name": "closed_book__granite8b",
+      "file": "answers/closed_book__granite8b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/closed_book/granite8b/predictions.jsonl",
+      "uncompressed_sha256": "05c61b0e3cc3c7ac9020583ac2d45400ab4c1279a862ba670e65d0eff58fe65b",
+      "reported_f1_percent": 57.54933583959899
+    },
+    {
+      "name": "closed_book__llama",
+      "file": "answers/closed_book__llama.jsonl.gz",
+      "release_path": "conditions/ctibench1000/closed_book/llama/predictions.jsonl",
+      "uncompressed_sha256": "898657f8534d0e5ed4197c54ea1e3be31c2f3ca770521d7a34784a949d59bf56",
+      "reported_f1_percent": 60.23076923076922
+    },
+    {
+      "name": "closed_book__muse",
+      "file": "answers/closed_book__muse.jsonl.gz",
+      "release_path": "conditions/ctibench1000/closed_book/muse/predictions.jsonl",
+      "uncompressed_sha256": "0061c84f79e8e29e4c5cc541fc5b222f69274c3df187b7829d55e2e97609cfc1",
+      "reported_f1_percent": 71.77333333333334
+    },
+    {
+      "name": "closed_book__nemotron",
+      "file": "answers/closed_book__nemotron.jsonl.gz",
+      "release_path": "conditions/ctibench1000/closed_book/nemotron/predictions.jsonl",
+      "uncompressed_sha256": "b23fc853fe1b2c7942a43b3c04f11a420ea789120b39a773db1ba372aeb46cc3",
+      "reported_f1_percent": 66.26666666666667
+    },
+    {
+      "name": "closed_book__phi",
+      "file": "answers/closed_book__phi.jsonl.gz",
+      "release_path": "conditions/ctibench1000/closed_book/phi/predictions.jsonl",
+      "uncompressed_sha256": "5be6a6708faf7cc69ae4516694649fa3352f87286ee59936301502ee82cdf856",
+      "reported_f1_percent": 62.5
+    },
+    {
+      "name": "closed_book__qwen",
+      "file": "answers/closed_book__qwen.jsonl.gz",
+      "release_path": "conditions/ctibench1000/closed_book/qwen/predictions.jsonl",
+      "uncompressed_sha256": "a47aceaf3b39210bbb1409bfb1601a1f1b8a134d1faec5114e56359901c20daf",
+      "reported_f1_percent": 64.60888888888888
+    },
+    {
+      "name": "closed_book__qwen38",
+      "file": "answers/closed_book__qwen38.jsonl.gz",
+      "release_path": "conditions/ctibench1000/closed_book/qwen38/predictions.jsonl",
+      "uncompressed_sha256": "efe49341cf5a99af791088a488f163aa5ecf61faa625b485138b843be72298d2",
+      "reported_f1_percent": 69.59130952380953
+    },
+    {
+      "name": "etr__gemma31_qat",
+      "file": "answers/etr__gemma31_qat.jsonl.gz",
+      "release_path": "conditions/ctibench1000/etr/gemma31_qat/predictions.jsonl",
+      "uncompressed_sha256": "b7e19781eb095ef9071c01cb4a8c1bdb800f2180911476f21fd797b36407b904",
+      "reported_f1_percent": 73.42
+    },
+    {
+      "name": "etr__gemmae4b",
+      "file": "answers/etr__gemmae4b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/etr/gemmae4b/predictions.jsonl",
+      "uncompressed_sha256": "a893a7c8a62aa8768e406846e9bb96e625c7b5f2f937a380c99480f4fca3cb23",
+      "reported_f1_percent": 66.40523809523809
+    },
+    {
+      "name": "etr__gptoss",
+      "file": "answers/etr__gptoss.jsonl.gz",
+      "release_path": "conditions/ctibench1000/etr/gptoss/predictions.jsonl",
+      "uncompressed_sha256": "cf58ea6d9f28d9d4f0af505162965d471b01a5928e5993e9a12caf8be6bbb6e5",
+      "reported_f1_percent": 47.9
+    },
+    {
+      "name": "etr__granite30_fp8",
+      "file": "answers/etr__granite30_fp8.jsonl.gz",
+      "release_path": "conditions/ctibench1000/etr/granite30_fp8/predictions.jsonl",
+      "uncompressed_sha256": "a97fe417c103c1a5ca4b1fa895e8aea3f6115da345b873aeb158a3edc5a6ae77",
+      "reported_f1_percent": 68.01666666666665
+    },
+    {
+      "name": "etr__granite8b",
+      "file": "answers/etr__granite8b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/etr/granite8b/predictions.jsonl",
+      "uncompressed_sha256": "8f2126a36562431ddecc1a08aa9bd8dd1c992ac6b60774b40d20f435761e12ee",
+      "reported_f1_percent": 62.77071428571428
+    },
+    {
+      "name": "etr__llama",
+      "file": "answers/etr__llama.jsonl.gz",
+      "release_path": "conditions/ctibench1000/etr/llama/predictions.jsonl",
+      "uncompressed_sha256": "7faeacdf390ea2f9932cfb2f121b4466acbccdd5ee7131a757c501b152a0039c",
+      "reported_f1_percent": 56.87222222222221
+    },
+    {
+      "name": "etr__muse",
+      "file": "answers/etr__muse.jsonl.gz",
+      "release_path": "conditions/ctibench1000/etr/muse/predictions.jsonl",
+      "uncompressed_sha256": "27638e2e6bb151c604bb436699f5d894706c163d3abe8e1745be3301be30e0cc",
+      "reported_f1_percent": 70.15
+    },
+    {
+      "name": "etr__nemotron",
+      "file": "answers/etr__nemotron.jsonl.gz",
+      "release_path": "conditions/ctibench1000/etr/nemotron/predictions.jsonl",
+      "uncompressed_sha256": "3066fd998123ae790d4305fd2b1c858669bb68817b31369cc02e75ac6b1cbc5b",
+      "reported_f1_percent": 63.09
+    },
+    {
+      "name": "etr__phi",
+      "file": "answers/etr__phi.jsonl.gz",
+      "release_path": "conditions/ctibench1000/etr/phi/predictions.jsonl",
+      "uncompressed_sha256": "f83ba48026beebd70852cbc997e4395dd8a302bb0d28665f7cd486e7b7d0a089",
+      "reported_f1_percent": 66.08999999999999
+    },
+    {
+      "name": "etr__qwen",
+      "file": "answers/etr__qwen.jsonl.gz",
+      "release_path": "conditions/ctibench1000/etr/qwen/predictions.jsonl",
+      "uncompressed_sha256": "334ad3c3d521f60992141efe1a717dc8888d548f708dd77bfd13b471d40bf2d5",
+      "reported_f1_percent": 61.702380952380956
+    },
+    {
+      "name": "etr__qwen38",
+      "file": "answers/etr__qwen38.jsonl.gz",
+      "release_path": "conditions/ctibench1000/etr/qwen38/predictions.jsonl",
+      "uncompressed_sha256": "33164858b7cfbf6de5c7126a4c6b983231aa8197a9f4f97c50f5b3883e405891",
+      "reported_f1_percent": 66.57079365079366
+    },
+    {
+      "name": "fusion__gemma31_qat",
+      "file": "answers/fusion__gemma31_qat.jsonl.gz",
+      "release_path": "conditions/ctibench1000/fusion/gemma31_qat/predictions.jsonl",
+      "uncompressed_sha256": "4ef5711904d445d1457d453f27fdbf88d3a64f6211bd7c633e887886eef8a916",
+      "reported_f1_percent": 77.36333333333333
+    },
+    {
+      "name": "fusion__gemmae4b",
+      "file": "answers/fusion__gemmae4b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/fusion/gemmae4b/predictions.jsonl",
+      "uncompressed_sha256": "8ee0996012abfbb4ccc5d86f5fbede13da0f4c5350cacce279395b9a9d8768d2",
+      "reported_f1_percent": 69.47000000000001
+    },
+    {
+      "name": "fusion__gptoss",
+      "file": "answers/fusion__gptoss.jsonl.gz",
+      "release_path": "conditions/ctibench1000/fusion/gptoss/predictions.jsonl",
+      "uncompressed_sha256": "644aa58253dc67ed6d79122b2d441d9f9e91a42db67d36143a368fc7863750bf",
+      "reported_f1_percent": 50.866666666666674
+    },
+    {
+      "name": "fusion__granite30_fp8",
+      "file": "answers/fusion__granite30_fp8.jsonl.gz",
+      "release_path": "conditions/ctibench1000/fusion/granite30_fp8/predictions.jsonl",
+      "uncompressed_sha256": "12146b5f93de1581789399826983b0c434650576717de0a1cecf53809c254280",
+      "reported_f1_percent": 73.59380952380953
+    },
+    {
+      "name": "fusion__granite8b",
+      "file": "answers/fusion__granite8b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/fusion/granite8b/predictions.jsonl",
+      "uncompressed_sha256": "8ff46c60df116f1b044deb28ccda3d8805029bfa052185a23aa2a45441581050",
+      "reported_f1_percent": 60.95876984126984
+    },
+    {
+      "name": "fusion__llama",
+      "file": "answers/fusion__llama.jsonl.gz",
+      "release_path": "conditions/ctibench1000/fusion/llama/predictions.jsonl",
+      "uncompressed_sha256": "20f1651c6539208ab0463a42e17be2199239032cbe7ce41ad2e07873a054be79",
+      "reported_f1_percent": 72.06666666666666
+    },
+    {
+      "name": "fusion__muse",
+      "file": "answers/fusion__muse.jsonl.gz",
+      "release_path": "conditions/ctibench1000/fusion/muse/predictions.jsonl",
+      "uncompressed_sha256": "3b3190b20f817fb83da2fe67805450210b5b9341aa7529e64cad5b8f0dae1b07",
+      "reported_f1_percent": 75.48333333333333
+    },
+    {
+      "name": "fusion__nemotron",
+      "file": "answers/fusion__nemotron.jsonl.gz",
+      "release_path": "conditions/ctibench1000/fusion/nemotron/predictions.jsonl",
+      "uncompressed_sha256": "efb889fdf7b06a2950eb0a81619bd811006e5b151a00d6f9a573f89c140037bf",
+      "reported_f1_percent": 73.14
+    },
+    {
+      "name": "fusion__phi",
+      "file": "answers/fusion__phi.jsonl.gz",
+      "release_path": "conditions/ctibench1000/fusion/phi/predictions.jsonl",
+      "uncompressed_sha256": "3fb8b1e3c48bd7d746ccdf110181721bf36b82ad402dbb13a405f038d2017c2e",
+      "reported_f1_percent": 74.58333333333333
+    },
+    {
+      "name": "fusion__qwen",
+      "file": "answers/fusion__qwen.jsonl.gz",
+      "release_path": "conditions/ctibench1000/fusion/qwen/predictions.jsonl",
+      "uncompressed_sha256": "04e87f8f0f45022e88626dcbd0103fb53c577e5c5431f2d1aed934eccc51f3a6",
+      "reported_f1_percent": 71.15008658008658
+    },
+    {
+      "name": "fusion__qwen38",
+      "file": "answers/fusion__qwen38.jsonl.gz",
+      "release_path": "conditions/ctibench1000/fusion/qwen38/predictions.jsonl",
+      "uncompressed_sha256": "b985590ff32626d74f10bac594f83e91ade2e1bfd2cb5e53c897370716275e2f",
+      "reported_f1_percent": 69.77538461538461
+    },
+    {
+      "name": "hyde__gemma31_qat",
+      "file": "answers/hyde__gemma31_qat.jsonl.gz",
+      "release_path": "conditions/ctibench1000/hyde/gemma31_qat/predictions.jsonl",
+      "uncompressed_sha256": "87aa6c265e1eb8cbb01a584db669354804f2794c9f07fb5bec540c63a14cd9fe",
+      "reported_f1_percent": 73.56333333333333
+    },
+    {
+      "name": "hyde__gemmae4b",
+      "file": "answers/hyde__gemmae4b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/hyde/gemmae4b/predictions.jsonl",
+      "uncompressed_sha256": "567fbf7fc6e95d69487049d665e43ab7846314d5571a29645601683dfa826e8b",
+      "reported_f1_percent": 65.75190476190475
+    },
+    {
+      "name": "hyde__gptoss",
+      "file": "answers/hyde__gptoss.jsonl.gz",
+      "release_path": "conditions/ctibench1000/hyde/gptoss/predictions.jsonl",
+      "uncompressed_sha256": "f6d8844556adbe9851ed2d726d55373049c3dc39113b9e7c33f7e99a0f019e33",
+      "reported_f1_percent": 48.1
+    },
+    {
+      "name": "hyde__granite30_fp8",
+      "file": "answers/hyde__granite30_fp8.jsonl.gz",
+      "release_path": "conditions/ctibench1000/hyde/granite30_fp8/predictions.jsonl",
+      "uncompressed_sha256": "e51bdc865824315937f2c6f5602f927349ea74ceebffcffce6742e535f49247d",
+      "reported_f1_percent": 71.91000000000001
+    },
+    {
+      "name": "hyde__granite8b",
+      "file": "answers/hyde__granite8b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/hyde/granite8b/predictions.jsonl",
+      "uncompressed_sha256": "66530b481172c1ebd0546b31350ad7b42aeb505ef4fdc1d9e5a3ba4ed7f6b238",
+      "reported_f1_percent": 64.53752747252747
+    },
+    {
+      "name": "hyde__llama",
+      "file": "answers/hyde__llama.jsonl.gz",
+      "release_path": "conditions/ctibench1000/hyde/llama/predictions.jsonl",
+      "uncompressed_sha256": "577a80406c500e0e741f5547e01afac14f05bc652cab035708fb85d745572802",
+      "reported_f1_percent": 69.91666666666666
+    },
+    {
+      "name": "hyde__muse",
+      "file": "answers/hyde__muse.jsonl.gz",
+      "release_path": "conditions/ctibench1000/hyde/muse/predictions.jsonl",
+      "uncompressed_sha256": "b7388400a3b15767960e2777f50f58e82af50c4a4c2c6ce4d1c1a8832c0edc86",
+      "reported_f1_percent": 72.86666666666666
+    },
+    {
+      "name": "hyde__nemotron",
+      "file": "answers/hyde__nemotron.jsonl.gz",
+      "release_path": "conditions/ctibench1000/hyde/nemotron/predictions.jsonl",
+      "uncompressed_sha256": "410b51c845a1b3a8e157105f866ffcf5a4969f591cae2c65de3e2466eaa14602",
+      "reported_f1_percent": 67.95
+    },
+    {
+      "name": "hyde__phi",
+      "file": "answers/hyde__phi.jsonl.gz",
+      "release_path": "conditions/ctibench1000/hyde/phi/predictions.jsonl",
+      "uncompressed_sha256": "f0c05fc786818fc855d2939d618e728f8fafcd01acd8d183a0e30a9b129e5620",
+      "reported_f1_percent": 71.00666666666667
+    },
+    {
+      "name": "hyde__qwen",
+      "file": "answers/hyde__qwen.jsonl.gz",
+      "release_path": "conditions/ctibench1000/hyde/qwen/predictions.jsonl",
+      "uncompressed_sha256": "a93ea6fc7f59753d4ff5a8ddcc89b7465ec14bffa225948b6713659ed7678c74",
+      "reported_f1_percent": 69.79571428571428
+    },
+    {
+      "name": "hyde__qwen38",
+      "file": "answers/hyde__qwen38.jsonl.gz",
+      "release_path": "conditions/ctibench1000/hyde/qwen38/predictions.jsonl",
+      "uncompressed_sha256": "d20d546d1adb6cc955b1bea13611ab66772c692059badf6aae2b6a5434acd255",
+      "reported_f1_percent": 69.35833333333333
+    },
+    {
+      "name": "linearrag__gemma31_qat",
+      "file": "answers/linearrag__gemma31_qat.jsonl.gz",
+      "release_path": "conditions/ctibench1000/linearrag/gemma31_qat/predictions.jsonl",
+      "uncompressed_sha256": "54f060c930811b3b6fbb5206d97d4bc275559b4ffbf53078559df140431c6cc2",
+      "reported_f1_percent": 67.81166666666667
+    },
+    {
+      "name": "linearrag__gemmae4b",
+      "file": "answers/linearrag__gemmae4b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/linearrag/gemmae4b/predictions.jsonl",
+      "uncompressed_sha256": "348e06d85df56a64530e8e360994e7dbf927ba9a30b3c3fdf09755db78069797",
+      "reported_f1_percent": 44.73167388167388
+    },
+    {
+      "name": "linearrag__gptoss",
+      "file": "answers/linearrag__gptoss.jsonl.gz",
+      "release_path": "conditions/ctibench1000/linearrag/gptoss/predictions.jsonl",
+      "uncompressed_sha256": "1f419c0fe8c9445d85aaaebef631be80d8f19cc07a023612d0838304cbecadec",
+      "reported_f1_percent": 38.346666666666664
+    },
+    {
+      "name": "linearrag__granite30_fp8",
+      "file": "answers/linearrag__granite30_fp8.jsonl.gz",
+      "release_path": "conditions/ctibench1000/linearrag/granite30_fp8/predictions.jsonl",
+      "uncompressed_sha256": "d9c844c9862a241639d93507c742426aadf07409cc5a7f8b43e97da2a213474c",
+      "reported_f1_percent": 54.884841269841274
+    },
+    {
+      "name": "linearrag__granite8b",
+      "file": "answers/linearrag__granite8b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/linearrag/granite8b/predictions.jsonl",
+      "uncompressed_sha256": "b4c2858a7de07031a2b39ccba3163d5ed0b407c15396290937711816eef149aa",
+      "reported_f1_percent": 36.504927849927846
+    },
+    {
+      "name": "linearrag__llama",
+      "file": "answers/linearrag__llama.jsonl.gz",
+      "release_path": "conditions/ctibench1000/linearrag/llama/predictions.jsonl",
+      "uncompressed_sha256": "f001d369d5be8262987fcc80709670c6b537123c9b9deb5e473a5798d60e2eb2",
+      "reported_f1_percent": 60.51
+    },
+    {
+      "name": "linearrag__muse",
+      "file": "answers/linearrag__muse.jsonl.gz",
+      "release_path": "conditions/ctibench1000/linearrag/muse/predictions.jsonl",
+      "uncompressed_sha256": "f336660c4e051ef8b32d3c91cc2ab03cfbcf8c4b4fd91a74142645028eb585ec",
+      "reported_f1_percent": 68.10666666666667
+    },
+    {
+      "name": "linearrag__nemotron",
+      "file": "answers/linearrag__nemotron.jsonl.gz",
+      "release_path": "conditions/ctibench1000/linearrag/nemotron/predictions.jsonl",
+      "uncompressed_sha256": "c8f68a13b179de916ebb3f1eb5a8b9e21f258b2acfd9a98c4180fac009085dee",
+      "reported_f1_percent": 62.493333333333325
+    },
+    {
+      "name": "linearrag__phi",
+      "file": "answers/linearrag__phi.jsonl.gz",
+      "release_path": "conditions/ctibench1000/linearrag/phi/predictions.jsonl",
+      "uncompressed_sha256": "05c39319c7949042ca34b2b1b049a3010be4315de14e9261fc99abb17e4e7827",
+      "reported_f1_percent": 65.07523809523809
+    },
+    {
+      "name": "linearrag__qwen",
+      "file": "answers/linearrag__qwen.jsonl.gz",
+      "release_path": "conditions/ctibench1000/linearrag/qwen/predictions.jsonl",
+      "uncompressed_sha256": "af9f3d95992f7688414e2e90b5369db81202a219f12c27f0127d7699199dc0d9",
+      "reported_f1_percent": 51.091741036741034
+    },
+    {
+      "name": "linearrag__qwen38",
+      "file": "answers/linearrag__qwen38.jsonl.gz",
+      "release_path": "conditions/ctibench1000/linearrag/qwen38/predictions.jsonl",
+      "uncompressed_sha256": "0fd3d2d20b796159f137478674ee2b89e39228738df3b356d90acbdf05d806e2",
+      "reported_f1_percent": 46.47967032967033
+    },
+    {
+      "name": "local_crag__gemma31_qat",
+      "file": "answers/local_crag__gemma31_qat.jsonl.gz",
+      "release_path": "conditions/ctibench1000/local_crag/gemma31_qat/predictions.jsonl",
+      "uncompressed_sha256": "b5147f249c911ba092aa13ebb24140c7c2a3303812a2d425787298bdcaefcef1",
+      "reported_f1_percent": 72.8333333333333
+    },
+    {
+      "name": "local_crag__gemmae4b",
+      "file": "answers/local_crag__gemmae4b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/local_crag/gemmae4b/predictions.jsonl",
+      "uncompressed_sha256": "383d08699d1aa3aa923c9ae406d2825edc7fdb224656eaae24113e7584edd87e",
+      "reported_f1_percent": 64.35333333333334
+    },
+    {
+      "name": "local_crag__gptoss",
+      "file": "answers/local_crag__gptoss.jsonl.gz",
+      "release_path": "conditions/ctibench1000/local_crag/gptoss/predictions.jsonl",
+      "uncompressed_sha256": "bb35443798e374c881f90375746caae2e68904afd2122a82001bf017ce7db0d7",
+      "reported_f1_percent": 43.15
+    },
+    {
+      "name": "local_crag__granite30_fp8",
+      "file": "answers/local_crag__granite30_fp8.jsonl.gz",
+      "release_path": "conditions/ctibench1000/local_crag/granite30_fp8/predictions.jsonl",
+      "uncompressed_sha256": "20c2ef73d79675320a803604d7f418850d48a33098dc7c2d83aae44def433542",
+      "reported_f1_percent": 64.0960714285714
+    },
+    {
+      "name": "local_crag__granite8b",
+      "file": "answers/local_crag__granite8b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/local_crag/granite8b/predictions.jsonl",
+      "uncompressed_sha256": "60ec7dda7745d17f5e490cc8c6f56c258602854b2cef93d5619481c6b33c5304",
+      "reported_f1_percent": 58.658571428571435
+    },
+    {
+      "name": "local_crag__llama",
+      "file": "answers/local_crag__llama.jsonl.gz",
+      "release_path": "conditions/ctibench1000/local_crag/llama/predictions.jsonl",
+      "uncompressed_sha256": "1fe5e71efa142a04781e3de48049a7960a7b970c1a28070c974c838471c12c63",
+      "reported_f1_percent": 64.09666666666666
+    },
+    {
+      "name": "local_crag__muse",
+      "file": "answers/local_crag__muse.jsonl.gz",
+      "release_path": "conditions/ctibench1000/local_crag/muse/predictions.jsonl",
+      "uncompressed_sha256": "bb81fd4a9346adfd3c84147eb86cdb11a0efb2bae5d73f5e86aed00a386b0cef",
+      "reported_f1_percent": 72.59999999999998
+    },
+    {
+      "name": "local_crag__nemotron",
+      "file": "answers/local_crag__nemotron.jsonl.gz",
+      "release_path": "conditions/ctibench1000/local_crag/nemotron/predictions.jsonl",
+      "uncompressed_sha256": "4de5bd196e6c5a085766b6afb8ef206956a49698e13ff545639dd5b28b6ecbcc",
+      "reported_f1_percent": 68.24
+    },
+    {
+      "name": "local_crag__phi",
+      "file": "answers/local_crag__phi.jsonl.gz",
+      "release_path": "conditions/ctibench1000/local_crag/phi/predictions.jsonl",
+      "uncompressed_sha256": "720d2e1d7700e0fc3784d4edf696f935016dc80fb51e56d084a67cb56bdc7cf3",
+      "reported_f1_percent": 67.28333333333333
+    },
+    {
+      "name": "local_crag__qwen",
+      "file": "answers/local_crag__qwen.jsonl.gz",
+      "release_path": "conditions/ctibench1000/local_crag/qwen/predictions.jsonl",
+      "uncompressed_sha256": "908a58d6c38b70ad4952927987fc241f8466995999e10ce8d66738430c057af1",
+      "reported_f1_percent": 67.23079365079361
+    },
+    {
+      "name": "local_crag__qwen38",
+      "file": "answers/local_crag__qwen38.jsonl.gz",
+      "release_path": "conditions/ctibench1000/local_crag/qwen38/predictions.jsonl",
+      "uncompressed_sha256": "4d372b9159ad5095a1b5150141cf0d92727dbd0bc46104df9cc6565addcd3e10",
+      "reported_f1_percent": 68.5033333333333
+    },
+    {
+      "name": "naive_rag20__gemma31_qat",
+      "file": "answers/naive_rag20__gemma31_qat.jsonl.gz",
+      "release_path": "conditions/ctibench1000/naive_rag20/gemma31_qat/predictions.jsonl",
+      "uncompressed_sha256": "31f0d06973fcfed43e0b71fa09744fc35e05596f56dd586a8be17acffb896025",
+      "reported_f1_percent": 75.83333333333334
+    },
+    {
+      "name": "naive_rag20__gemmae4b",
+      "file": "answers/naive_rag20__gemmae4b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/naive_rag20/gemmae4b/predictions.jsonl",
+      "uncompressed_sha256": "245ba5f7065aac033aba12052d97c428ef1cb83adf8c323653088d0ac75e8373",
+      "reported_f1_percent": 68.38666666666666
+    },
+    {
+      "name": "naive_rag20__gptoss",
+      "file": "answers/naive_rag20__gptoss.jsonl.gz",
+      "release_path": "conditions/ctibench1000/naive_rag20/gptoss/predictions.jsonl",
+      "uncompressed_sha256": "5238b7e0062a9481f3af127a4414df8371e2b967c8513681bc00798b55633bf5",
+      "reported_f1_percent": 50.7
+    },
+    {
+      "name": "naive_rag20__granite30_fp8",
+      "file": "answers/naive_rag20__granite30_fp8.jsonl.gz",
+      "release_path": "conditions/ctibench1000/naive_rag20/granite30_fp8/predictions.jsonl",
+      "uncompressed_sha256": "e79771f833c1452a323cadb0bb70f315b2c6a3cb518da71623e5c3e2f959f1ff",
+      "reported_f1_percent": 73.82583333333334
+    },
+    {
+      "name": "naive_rag20__granite8b",
+      "file": "answers/naive_rag20__granite8b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/naive_rag20/granite8b/predictions.jsonl",
+      "uncompressed_sha256": "56e270e828c0cab083cc145023784ae218d0161bfafc4ec8875aecc4a0094637",
+      "reported_f1_percent": 66.40896825396825
+    },
+    {
+      "name": "naive_rag20__llama",
+      "file": "answers/naive_rag20__llama.jsonl.gz",
+      "release_path": "conditions/ctibench1000/naive_rag20/llama/predictions.jsonl",
+      "uncompressed_sha256": "262bb43c026851c182562ed55e17adec960ef6ca6eaec3d4f5abd0e2620b4df2",
+      "reported_f1_percent": 74.81666666666666
+    },
+    {
+      "name": "naive_rag20__muse",
+      "file": "answers/naive_rag20__muse.jsonl.gz",
+      "release_path": "conditions/ctibench1000/naive_rag20/muse/predictions.jsonl",
+      "uncompressed_sha256": "92a0b15d385c8a6916cfc5df7d23bcaf8c86381026dd5b6424b6ac04d91ad66a",
+      "reported_f1_percent": 75.53333333333335
+    },
+    {
+      "name": "naive_rag20__nemotron",
+      "file": "answers/naive_rag20__nemotron.jsonl.gz",
+      "release_path": "conditions/ctibench1000/naive_rag20/nemotron/predictions.jsonl",
+      "uncompressed_sha256": "fe938a8002ee8b93427be27edecd925951986a2a8cb656df3ceade12f8f3dc3b",
+      "reported_f1_percent": 74.87333333333333
+    },
+    {
+      "name": "naive_rag20__phi",
+      "file": "answers/naive_rag20__phi.jsonl.gz",
+      "release_path": "conditions/ctibench1000/naive_rag20/phi/predictions.jsonl",
+      "uncompressed_sha256": "1460433f6af167792b62d9b2e6e13a7fac0f8224987968405584933b5b1de387",
+      "reported_f1_percent": 73.05
+    },
+    {
+      "name": "naive_rag20__qwen",
+      "file": "answers/naive_rag20__qwen.jsonl.gz",
+      "release_path": "conditions/ctibench1000/naive_rag20/qwen/predictions.jsonl",
+      "uncompressed_sha256": "225f904e2697c5d16c961a89118410f928d5141c5b105e7c24c2b5b56261dd11",
+      "reported_f1_percent": 71.45269841269841
+    },
+    {
+      "name": "naive_rag20__qwen38",
+      "file": "answers/naive_rag20__qwen38.jsonl.gz",
+      "release_path": "conditions/ctibench1000/naive_rag20/qwen38/predictions.jsonl",
+      "uncompressed_sha256": "f18e788c673102c28f802bdf0e9141b7743b05bcb819544f38d226138320732a",
+      "reported_f1_percent": 70.52952380952381
+    },
+    {
+      "name": "reranked_rag20__gemma31_qat",
+      "file": "answers/reranked_rag20__gemma31_qat.jsonl.gz",
+      "release_path": "conditions/ctibench1000/reranked_rag20/gemma31_qat/predictions.jsonl",
+      "uncompressed_sha256": "8864ac23620b73a29683390e30684ec7b2f2a2084e9f0e2a66c51a88d645ebe2",
+      "reported_f1_percent": 76.61
+    },
+    {
+      "name": "reranked_rag20__gemmae4b",
+      "file": "answers/reranked_rag20__gemmae4b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/reranked_rag20/gemmae4b/predictions.jsonl",
+      "uncompressed_sha256": "3aa101cc994d41468348bfd2fff63c7c63b85f21a47501b400f63b48fb6d7cd8",
+      "reported_f1_percent": 67.7
+    },
+    {
+      "name": "reranked_rag20__gptoss",
+      "file": "answers/reranked_rag20__gptoss.jsonl.gz",
+      "release_path": "conditions/ctibench1000/reranked_rag20/gptoss/predictions.jsonl",
+      "uncompressed_sha256": "ffdf02e594acb4f4d9cbe204e0a64a225446e49f4bb686dd0d7b847900aa71c9",
+      "reported_f1_percent": 53.400000000000006
+    },
+    {
+      "name": "reranked_rag20__granite30_fp8",
+      "file": "answers/reranked_rag20__granite30_fp8.jsonl.gz",
+      "release_path": "conditions/ctibench1000/reranked_rag20/granite30_fp8/predictions.jsonl",
+      "uncompressed_sha256": "45cadb294fb1dfff7a7e6e718304fa1343324b2f9efca3e68dac01802ce7a0f5",
+      "reported_f1_percent": 73.49857142857142
+    },
+    {
+      "name": "reranked_rag20__granite8b",
+      "file": "answers/reranked_rag20__granite8b.jsonl.gz",
+      "release_path": "conditions/ctibench1000/reranked_rag20/granite8b/predictions.jsonl",
+      "uncompressed_sha256": "baa42121a943fa70839bc2d02fc51fe099e2da0236a2c34578172508a5a0161c",
+      "reported_f1_percent": 67.11698412698412
+    },
+    {
+      "name": "reranked_rag20__llama",
+      "file": "answers/reranked_rag20__llama.jsonl.gz",
+      "release_path": "conditions/ctibench1000/reranked_rag20/llama/predictions.jsonl",
+      "uncompressed_sha256": "10919d7a2d305a45b9a30620fe7d5a8e5265aec1de71112a3d11fa277c8d0634",
+      "reported_f1_percent": 74.65
+    },
+    {
+      "name": "reranked_rag20__muse",
+      "file": "answers/reranked_rag20__muse.jsonl.gz",
+      "release_path": "conditions/ctibench1000/reranked_rag20/muse/predictions.jsonl",
+      "uncompressed_sha256": "29a8a92fcdbbfcac35badfc5f77bd963b6acfc7d172834750ef9a0d2de54f31e",
+      "reported_f1_percent": 75.94999999999999
+    },
+    {
+      "name": "reranked_rag20__nemotron",
+      "file": "answers/reranked_rag20__nemotron.jsonl.gz",
+      "release_path": "conditions/ctibench1000/reranked_rag20/nemotron/predictions.jsonl",
+      "uncompressed_sha256": "de974044320ecc3a98d44544a7a86705eae97f9baaf6d3f56fb662bd9c0fc976",
+      "reported_f1_percent": 74.05000000000001
+    },
+    {
+      "name": "reranked_rag20__phi",
+      "file": "answers/reranked_rag20__phi.jsonl.gz",
+      "release_path": "conditions/ctibench1000/reranked_rag20/phi/predictions.jsonl",
+      "uncompressed_sha256": "1d4675cf7e7046f7bf24e53edebbeaf2a35c69c2f2809aabb6080673d651d4b6",
+      "reported_f1_percent": 73.34357142857144
+    },
+    {
+      "name": "reranked_rag20__qwen",
+      "file": "answers/reranked_rag20__qwen.jsonl.gz",
+      "release_path": "conditions/ctibench1000/reranked_rag20/qwen/predictions.jsonl",
+      "uncompressed_sha256": "cd2edf5ab563f554d54f67a711da284c546197cc593a673e02325ebf25f5996d",
+      "reported_f1_percent": 72.49666666666667
+    },
+    {
+      "name": "reranked_rag20__qwen38",
+      "file": "answers/reranked_rag20__qwen38.jsonl.gz",
+      "release_path": "conditions/ctibench1000/reranked_rag20/qwen38/predictions.jsonl",
+      "uncompressed_sha256": "dc9112607cd9302ca695cab9adb232761fcd6488c6a435a1381d835c506d4941",
+      "reported_f1_percent": 70.55103174603174
+    }
+  ],
+  "scorer_sha256": "6ccceec95b1b45444f86329e3f155a236b26fd0c4faca2e42738963fe90bf4b5"
+}

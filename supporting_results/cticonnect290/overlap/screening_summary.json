@@ -1,0 +1,15 @@
+{
+  "source_CVEs": 282,
+  "questions": 290,
+  "source_metadata_available": 282,
+  "reference_descriptions": 119889,
+  "semantic_pairs": 245,
+  "semantic_references": 229,
+  "lexical_pairs": 55,
+  "lexical_references": 37,
+  "exact_pairs": 0,
+  "description_union_references": 253,
+  "shared_disclosure_pairs": 43,
+  "combined_references": 291,
+  "no_scoring_done": true
+}

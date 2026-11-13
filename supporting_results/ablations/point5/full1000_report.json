@@ -1,0 +1,17 @@
+{
+  "full_reference": {
+    "correct": 759,
+    "n": 1000,
+    "accuracy_percent": 75.9
+  },
+  "description_product": {
+    "correct": 734,
+    "n": 1000,
+    "accuracy_percent": 73.4
+  },
+  "paired": {
+    "gains": 28,
+    "losses": 53,
+    "changed_predictions": 144
+  }
+}

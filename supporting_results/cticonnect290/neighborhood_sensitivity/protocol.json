@@ -1,0 +1,27 @@
+{
+  "inputs_sha256": {
+    "documents.jsonl": "aae5030a87f559ab25f78a22e6edeb5131e70b100848d20f6a5ea98bf2c62b1f",
+    "query_embeddings.npy": "0ae809746040b9c24d4068d495de9f266b25c28c5dad28de2bb0cbf64afb0f9d",
+    "document_embeddings.npy": "aa9285b81255f5edc0104c98b7bbbf5a458ddb6685e5b1e956da0c97c8739df6",
+    "queries.jsonl": "ac54239cc6b057e13977b159b3f175f6bee4fccfee6cdb4cb835accff5215d78",
+    "exclusions.json": "38df6ec05405b1c5036681bb1d7aac65392513483afd25a6341ea33e7e952d1f"
+  },
+  "eligible_records": 119889,
+  "top_k": 50,
+  "precision": "FP32 matvec, TF32 off",
+  "ties": "Original corpus row order, then lexical CWE vote ties",
+  "k_values": [
+    1,
+    5,
+    10,
+    20,
+    30,
+    50
+  ],
+  "primary_k": 10,
+  "top20_identical_to_previous_retrieval_all290": true,
+  "selection": "retrospective; extended sensitivity does not change primary k10",
+  "prediction_freezing": "all six full ledgers frozen before scoring",
+  "answer_model_requests": 0,
+  "hardware": "two RTX4090 GPUs for FP32 cached-vector ranking"
+}

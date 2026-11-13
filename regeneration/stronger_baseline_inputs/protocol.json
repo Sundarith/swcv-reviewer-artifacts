@@ -1,0 +1,38 @@
+{
+  "inputs_sha256": {
+    "analysis/ctibench1000_stronger_baselines_20261110/run.py": "0eea3e9226fb670a134e90e4a3916ca194fea51a6c248a08755078b804a58233",
+    "analysis/ctibench1000_final_group_filters_20261107/source_supported_exclusions.json": "14fb27040fa8bdeddc1b92c6aceb7643d22ccb8b92182c1c31b99cdc58ac6f80",
+    "analysis/ctibench1000_k_sensitivity_20261108/predictions.jsonl": "184a01ff76d6c1d2be800714a841f1e1d0eb546932aa138aac55f2ad2c04ae1f",
+    "logs/experiments/rcm335_nvd_first_fixed_pool_all_models_20261018_v1/shared/documents.jsonl": "aae5030a87f559ab25f78a22e6edeb5131e70b100848d20f6a5ea98bf2c62b1f",
+    "logs/experiments/rcm335_nvd_first_fixed_pool_all_models_20261018_v1/shared/document_embeddings.npy": "aa9285b81255f5edc0104c98b7bbbf5a458ddb6685e5b1e956da0c97c8739df6",
+    "logs/experiments/rcm335_nvd_first_fixed_pool_all_models_20261018_v1/shared/queries.jsonl": "906e5e5966b794e1f5538c55225d79a19bc800720000c3ee37f5e580d6694e7d",
+    "logs/experiments/rcm335_nvd_first_fixed_pool_all_models_20261018_v1/shared/query_embeddings.npy": "486db9d0cd378c8abe01193d530d57f5f4ea1bcbd6720f3418abc97027bedbe4",
+    "logs/experiments/rcm1000_source_priority_all_models_20261017_v1/shared/query_embeddings.npy": "6337640aa56a50dd01c43b2618468f4bfff50e7fc0d21e72d634ddeabb298239"
+  },
+  "libraries": {
+    "numpy": "2.4.6",
+    "sklearn": "1.8.0",
+    "bm25s": "0.2.14"
+  },
+  "reference_pool": 120238,
+  "k": 20,
+  "dev_seed": 20261110,
+  "dev_size": 1000,
+  "temperature_grid": [
+    0.01,
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "temperature_selection": "Most development CVEs whose structured label set contains the prediction. Ties favor larger temperature. Development records are excluded as a group from their own search index. Benchmark votes use the full filtered corpus.",
+  "development_limitation": "Random reference holdout, not a temporal or vulnerability-family split.",
+  "inverse_distance": "1 / max(1 - cosine, 1e-6)",
+  "bm25": "bm25s defaults, English stopwords, full stored reference text and original question, top 20 unweighted label vote",
+  "dense_supervised": "Multilabel ridge (alpha=1) on unit embeddings, unit total target mass per record, argmax over fitted class scores",
+  "text_supervised": "Multinomial NB (alpha=1) with unigram and bigram TF-IDF (min_df=2, up to 100000 features). Fit supervised weights on all structured mappings with unit total sample weight per record.",
+  "tie_breaks": "Corpus order for retrieval ties, lexical CWE ID for prediction ties",
+  "gold": "Open only after prediction ledger is frozen"
+}

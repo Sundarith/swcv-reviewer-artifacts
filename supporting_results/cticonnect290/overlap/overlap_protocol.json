@@ -1,0 +1,47 @@
+{
+  "purpose": "CTIConnect-specific source-description overlap sensitivity; retain primary119889 corpus and k10, all290questions; no answer model rerun",
+  "description_source": "All282distinct source CVE descriptions from the pinned released CTIConnect corpus;282sourceIDs cover290questionIDs",
+  "semantic": "Exhaustive source-description vs current119889 reference-description cosine>=0.95; symmetric description-only Qwen embeddings; exact identical text cache reuse only; missing source embeddings newly encoded with frozen encoder and normalization",
+  "lexical": "Casefold/whitespace collapse; word5gramJaccard>0.8 AND unit-cost Levenshtein/maxLength similarity>0.8; short descriptions without5grams exact equality only",
+  "source_stress": "Current frozen source CNA/ADP URLs vs saved reference provenance, operationally specific exact canonical URL matches using the existing disclosed classifier; no product-only signals or transitive closure; potential shared disclosure, not confirmed same flaw",
+  "conditions": [
+    "primary",
+    "description_union",
+    "description_plus_shared_disclosure"
+  ],
+  "selection": "Thresholds and grouping fixed before new retrieval/predictions/scoring; no gold used to choose exclusions; retrospective exploratory sensitivity",
+  "arithmetic": "FP32 cached full-question/full-record retrieval matvec,TF32off; stable original row ties and lexical vote ties; require primary top20IDs and similarities identical to saved ranking",
+  "runtime": "two GPUs; description encoder replicas8workers/GPU; no CPU neural inference; no external request",
+  "encoder_hashes": {
+    "README.md": "3c8dafc1e6529491fa8918cd96c62b90229b317fd83f2794cea20cda100d6122",
+    "model-00001-of-00002.safetensors": "e70bfe3c970523fb7ef4eddffed2254ce3f1e7150c3de2af4342de129dd756f8",
+    "config.json": "0f0ed3380602b252fced3fab6d07c76752c32ffca818ccc61afaf17ae8edd96f",
+    "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "tokenizer.json": "83cdf8c3a34f68862319cb1810ee7b1e2c0a44e0864ae930194ddb76bb7feb8d",
+    "tokenizer_config.json": "2f58f4bbd7bbce15d683f525954ef3a92cd82f5e06415a9c513859bf8ab72436",
+    "model.safetensors.index.json": "9d130c7f24fa1f9a2a7e19fad42c7d6d2d6fea31b180bdf3e8aac1924c26c39a",
+    "generation_config.json": "28396d421a2108acce96383f6a7de78008f7f1b17f807958f3c14c51dbfb65fb",
+    "config_sentence_transformers.json": "10667c72ddb772627bf1780cb7f86af8e2ae0032b8c243c731172064105c6961",
+    "model-00002-of-00002.safetensors": "ed1b87c8e9eb7e535a1a155e4fd00d9f4dba80e58a6db48a4c9f82cede7079c1",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    ".gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"
+  },
+  "external_assets_sha256": {
+    "documents.jsonl": "aae5030a87f559ab25f78a22e6edeb5131e70b100848d20f6a5ea98bf2c62b1f",
+    "document_embeddings.npy": "aa9285b81255f5edc0104c98b7bbbf5a458ddb6685e5b1e956da0c97c8739df6",
+    "query_embeddings.npy": "0ae809746040b9c24d4068d495de9f266b25c28c5dad28de2bb0cbf64afb0f9d",
+    "queries.jsonl": "ac54239cc6b057e13977b159b3f175f6bee4fccfee6cdb4cb835accff5215d78",
+    "dense_ranked.jsonl": "4fa09ea6a42c121339b9bd4200ca937556caab75efd5a961c9cb17ea7db07052",
+    "description_cache/description_inputs.jsonl": "ad668b59df277f5ea8c65c7b9917ae916a0c1a6e493a3cec1f80ca63fa7b0e21",
+    "description_cache/vectors_gpu0.npy": "63afa5dc9e43a87bda702fe80d66250ca1ff218ae6dc971518c0bb7f839b28c4",
+    "description_cache/vectors_gpu1.npy": "47d8c0a2adbc2cd17770d58c6d3502b39c2b02b952a709ac43712cc13c37a7ef",
+    "reference_provenance.json": "37889a8747bd8d821266af9b8eebbfe16e8c1261fbfa4b268bbb115dd4270749"
+  },
+  "local_sha256": {
+    "source_descriptions.jsonl": "a6d87e536494bc390a928f8beec9cf9446cc33868a5a01fb2e75540768e133b7",
+    "regenerate.py": "ab5fd3ef0500d7e0ced928b15cf2585b25bf5848e75ccfb8ba640ee95a96615d",
+    "source_rules.py": "706ce69ad43e1830fb99d6f5fcf348eadabfd890967396b0b9b08dafd4fb02fa",
+    "../exclusions.json": "38df6ec05405b1c5036681bb1d7aac65392513483afd25a6341ea33e7e952d1f"
+  }
+}

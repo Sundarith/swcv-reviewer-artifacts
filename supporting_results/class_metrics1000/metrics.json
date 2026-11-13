@@ -1,0 +1,98 @@
+{
+  "bm25": {
+    "n": 1000,
+    "correct": 595,
+    "accuracy": 0.595,
+    "macro_precision": 0.2798037967925148,
+    "macro_recall": 0.2564709070051626,
+    "macro_f1": 0.2484106750188228,
+    "micro_precision": 0.595,
+    "micro_recall": 0.595,
+    "micro_f1": 0.595,
+    "classes": 122
+  },
+  "cosine_sum": {
+    "n": 1000,
+    "correct": 763,
+    "accuracy": 0.763,
+    "macro_precision": 0.39525311515732053,
+    "macro_recall": 0.39458282920760795,
+    "macro_f1": 0.37673759297357184,
+    "micro_precision": 0.763,
+    "micro_recall": 0.763,
+    "micro_f1": 0.763,
+    "classes": 121
+  },
+  "embedding_ridge": {
+    "n": 1000,
+    "correct": 744,
+    "accuracy": 0.744,
+    "macro_precision": 0.4416684070084141,
+    "macro_recall": 0.4053875641561349,
+    "macro_f1": 0.39934778122167236,
+    "micro_precision": 0.744,
+    "micro_recall": 0.744,
+    "micro_f1": 0.744,
+    "classes": 107
+  },
+  "inverse_distance": {
+    "n": 1000,
+    "correct": 764,
+    "accuracy": 0.764,
+    "macro_precision": 0.39564029482257507,
+    "macro_recall": 0.39485831130127186,
+    "macro_f1": 0.3770285625827232,
+    "micro_precision": 0.764,
+    "micro_recall": 0.764,
+    "micro_f1": 0.764,
+    "classes": 121
+  },
+  "majority": {
+    "n": 1000,
+    "correct": 757,
+    "accuracy": 0.757,
+    "macro_precision": 0.4000039850337139,
+    "macro_recall": 0.3925445403745256,
+    "macro_f1": 0.37796612884756275,
+    "micro_precision": 0.757,
+    "micro_recall": 0.757,
+    "micro_f1": 0.757,
+    "classes": 120
+  },
+  "nearest_neighbor": {
+    "n": 1000,
+    "correct": 686,
+    "accuracy": 0.686,
+    "macro_precision": 0.3089712062516228,
+    "macro_recall": 0.30228646753634386,
+    "macro_f1": 0.28424614239174645,
+    "micro_precision": 0.686,
+    "micro_recall": 0.686,
+    "micro_f1": 0.686,
+    "classes": 138
+  },
+  "softmax": {
+    "n": 1000,
+    "correct": 764,
+    "accuracy": 0.764,
+    "macro_precision": 0.39521956761183086,
+    "macro_recall": 0.39485831130127186,
+    "macro_f1": 0.37654008541702666,
+    "micro_precision": 0.764,
+    "micro_recall": 0.764,
+    "micro_f1": 0.764,
+    "classes": 121
+  },
+  "text_nb": {
+    "n": 1000,
+    "correct": 373,
+    "accuracy": 0.373,
+    "macro_precision": 0.10714107039531337,
+    "macro_recall": 0.04863934340058041,
+    "macro_f1": 0.04509041792294401,
+    "micro_precision": 0.373,
+    "micro_recall": 0.373,
+    "micro_f1": 0.373,
+    "classes": 104
+  }
+}

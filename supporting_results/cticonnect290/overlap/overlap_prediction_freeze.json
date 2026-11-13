@@ -1,0 +1,13 @@
+{
+  "sha256": "da959a164278aeee3e3d495e8cf0cddbda9cc0b1a489116e014b3c08b139181f",
+  "n": 290,
+  "k": 10,
+  "gold_loaded": false,
+  "both_GPUs": true,
+  "primary_top20_exact_rows_and_scores_match": true,
+  "mask_sha256": {
+    "primary": "901d6a5ca2e3d2c246e504c98119ec82e547cf2b0ce366bc79edc0af3ea99a77",
+    "description_union": "03afc6ffa875fea9698864a111d364950de4973577e22bc582eb399735cd5be4",
+    "description_plus_shared_disclosure": "a73bc34bb4d79a59c4bb05394c1cf204be0359afe66b624d5dd7543cb141e202"
+  }
+}

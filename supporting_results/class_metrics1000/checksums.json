@@ -1,0 +1,22 @@
+{
+  "bm25_confusion.csv": "2bf65a18f5dd7c54216a4cd7395a949636a12539644eea3133b4585cc600c3da",
+  "bm25_per_cwe.csv": "2cb37dea58a42d908c3071e83012a26455ed9dbd2f899170d791eae1cc618242",
+  "build.py": "3fb126c3798f484580c3e16380f2b4373a31a8d6ad9a4d07349f2cfc1feab6a2",
+  "cosine_sum_confusion.csv": "e416325ee730d3fdb215aa5eb43226c9dd75134e65783790af91f6543bffe23a",
+  "cosine_sum_per_cwe.csv": "4a04432fb1506c9754dacf2be6d6d95e7ad883c6e42e934a5cacd9c690231f70",
+  "embedding_ridge_confusion.csv": "84b486642016e1bedbd0952d93e01edc29345dfdf6b95f1dbd73808157749f1c",
+  "embedding_ridge_per_cwe.csv": "b065119c794a60d378b23dafe7fc0f2ac9d4ecb742ecd3974b0dff9a0352a708",
+  "gold.jsonl": "54680fb201f1322c7ec50f2f1c08a8d701a08a327ca14fae7563eba55d3d252c",
+  "inverse_distance_confusion.csv": "59f7985dbaca5a2b8a556342688f2088c78154d9c13803257df4da72ab59a1aa",
+  "inverse_distance_per_cwe.csv": "6352350f0323a56405b264262a85b652912b19ee368b633c820d1b22917af207",
+  "majority_confusion.csv": "3b669a9346cb49f7acbb876d38d265f1d58318d554a40a400d80ac07022b2c8f",
+  "majority_per_cwe.csv": "e08ff1165246d8b859bbf889d42e2fb1351d2704ae8593c634c86fb696483c79",
+  "metrics.json": "92669ec54ec133fe5afde4937480a92606d2d08edbada4596182c598b0a3ce9d",
+  "nearest_neighbor_confusion.csv": "5572b50eb1b249a1bebb490ec98a76de462006e3026ae23f35bbe956a02de43f",
+  "nearest_neighbor_per_cwe.csv": "3489020c12ef117d5b710e87f6298a4807f719601c987aaa5d2f3680fbb04c34",
+  "predictions.jsonl": "e854a61cca8edef89eedec2e9ca6a5e7a1be4734be177e7edbd9f3e7df06db99",
+  "softmax_confusion.csv": "0b4985003814427690508b1e14af2dbeff8cf7f9385252c918edef221eccef97",
+  "softmax_per_cwe.csv": "d90eeb8ef8fc8c3f4f47dea6864bf56258a422380878766a155ecc012c3f798d",
+  "text_nb_confusion.csv": "c11cc428bf59ec6858b5a7ca98b59b70889348790fe20a8dcade7645e6d5ef24",
+  "text_nb_per_cwe.csv": "3670bcbadacd370cfccad8d22f26f2f9198e10ca2349f094bc7a380c326aa17d"
+}

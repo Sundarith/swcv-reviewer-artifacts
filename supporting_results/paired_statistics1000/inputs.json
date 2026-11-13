@@ -1,0 +1,21 @@
+{
+  "release": "v1.0.0/rcm_results_and_protocols.zip",
+  "readers": {
+    "naive_rag20": {
+      "model": "Gemma 4 31B",
+      "file": "naive_rag20_gemma31_qat.jsonl.gz",
+      "release_path": "conditions/ctibench1000/naive_rag20/gemma31_qat/predictions.jsonl",
+      "release_prediction_sha256": "31f0d06973fcfed43e0b71fa09744fc35e05596f56dd586a8be17acffb896025",
+      "reported_f1_percent": 75.83333333333334,
+      "selection": "strongest main-table Naive RAG reader"
+    },
+    "fusion": {
+      "model": "Gemma 4 31B",
+      "file": "fusion_gemma31_qat.jsonl.gz",
+      "release_path": "conditions/ctibench1000/fusion/gemma31_qat/predictions.jsonl",
+      "release_prediction_sha256": "4ef5711904d445d1457d453f27fdbf88d3a64f6211bd7c633e887886eef8a916",
+      "reported_f1_percent": 77.36333333333333,
+      "selection": "strongest main-table reader-method condition overall"
+    }
+  }
+}

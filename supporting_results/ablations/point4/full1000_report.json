@@ -1,0 +1,17 @@
+{
+  "full_question": {
+    "correct": 763,
+    "n": 1000,
+    "accuracy_percent": 76.3
+  },
+  "description_only": {
+    "correct": 714,
+    "n": 1000,
+    "accuracy_percent": 71.4
+  },
+  "paired": {
+    "gains": 27,
+    "losses": 76,
+    "changed_predictions": 187
+  }
+}

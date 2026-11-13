@@ -1,0 +1,11 @@
+{
+  "README.md": "d3d6dfb0dc763651444efcc57c5930b07e5fd84903de40040b9a4b8bf4b26db0",
+  "compute.py": "4473aad08cbe2ce8d10e70b86610bbb263f9ab727e8f5089341178125b77a6eb",
+  "fusion_gemma31_qat.jsonl.gz": "d5bb51c8bb13298ffb0b9825ff2ddfdc2086e9d99f6f44660db4cb8b7e9785f5",
+  "inputs.json": "066b735ef8b66d00a0b143943966829b2ddd5fe01ad28c9c8bd0bd51dfeb8218",
+  "naive_rag20_gemma31_qat.jsonl.gz": "7351c43a8b70a7dbcccbcd275034a439df33e9db72a78f08efd02bc6aefab960",
+  "question_scores.csv": "ca40ef35ae10d00d656a4ee183170be1777af3fba89d9dcfe75e392f00be4113",
+  "results.json": "650bffb0f6f56022d7e3f0d9bbb06f630ce16c79e29d6827bc2cca4763c0ed93",
+  "../class_metrics1000/gold.jsonl": "54680fb201f1322c7ec50f2f1c08a8d701a08a327ca14fae7563eba55d3d252c",
+  "../class_metrics1000/predictions.jsonl": "e854a61cca8edef89eedec2e9ca6a5e7a1be4734be177e7edbd9f3e7df06db99"
+}

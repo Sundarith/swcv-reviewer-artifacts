@@ -1,0 +1,357 @@
+{
+  "CVE": {
+    "delta_fetchTime": "2026-05-06T00:12:51.523Z",
+    "interpretation": "Source-tree delta marker, not local acquisition timestamp or verified repository commit",
+    "exact_acquisition_time": null,
+    "repository_commit": null,
+    "saved_import_digest": "ebef7b96824bc5337d3167bb719e60c63239deca913d1e98eb6569a9703c8951"
+  },
+  "NVD": {
+    "feed_count": 25,
+    "retrieved_at_min": "2026-10-17T19:46:01.905952+00:00",
+    "retrieved_at_max": "2026-10-17T19:47:13.158247+00:00",
+    "receipts": [
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2002.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:04:33-04:00",
+          "size": "27128205",
+          "zipSize": "2190642",
+          "gzSize": "2190506",
+          "sha256": "724C4C7955063D9B1058AD8152D65045A7E92CA090CC16D9AF0FA48A7464F704"
+        },
+        "compressed_sha256": "34603385bbc01047686ca878b80b5d964538d11aedd368393f928ad84821bba0",
+        "retrieved_at": "2026-10-17T19:46:01.905952+00:00",
+        "records": 6771
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2003.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-08-28T03:04:38-04:00",
+          "size": "7908123",
+          "zipSize": "728974",
+          "gzSize": "728838",
+          "sha256": "B952F9DB6DEF6A462922875710E14E081DEDBB2F2DB637B920AA8B1CBAC49FD6"
+        },
+        "compressed_sha256": "f18905201a0ff16827309156b2c986627c38a9d94cbe7796a24cd63379c449a3",
+        "retrieved_at": "2026-10-17T19:46:02.255236+00:00",
+        "records": 1555
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2004.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-10T03:03:37-04:00",
+          "size": "16381307",
+          "zipSize": "1490234",
+          "gzSize": "1490098",
+          "sha256": "D14FE509F03097FEEA3FFC2A4472EDD750FD30ADE0A2F7743B15513F3A4E45B5"
+        },
+        "compressed_sha256": "31acd82654b0240c8cc6a3f0e4c4a85f9099215c82b681af4837b2d151b6b6b8",
+        "retrieved_at": "2026-10-17T19:46:02.642086+00:00",
+        "records": 2707
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2005.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:04:30-04:00",
+          "size": "25790311",
+          "zipSize": "2172972",
+          "gzSize": "2172836",
+          "sha256": "16236C0E2EB2912B14FE056C226439E2B332DB32293E178750DF534010709C11"
+        },
+        "compressed_sha256": "c28818b772deab89dd93ad47694f374dd844b81ef7393938832f583b1249003c",
+        "retrieved_at": "2026-10-17T19:46:03.188328+00:00",
+        "records": 4770
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2006.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:04:26-04:00",
+          "size": "41221242",
+          "zipSize": "3499680",
+          "gzSize": "3499544",
+          "sha256": "A110B014119A1A2D851DC22DE81E366825935F8F2C7839F9FC62125B1FA9EDC1"
+        },
+        "compressed_sha256": "f8a3c24bd0fd28208e6a7213f5808b20223fa67b03de760fea88f112a4ba19c5",
+        "retrieved_at": "2026-10-17T19:46:04.076163+00:00",
+        "records": 7145
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2007.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-08-28T03:04:26-04:00",
+          "size": "39412640",
+          "zipSize": "3606027",
+          "gzSize": "3605891",
+          "sha256": "90CB14B7022A5E12608872694804F48BBD647432FFE2558D3AB2092B4AF5FA91"
+        },
+        "compressed_sha256": "cee97e53521d9838530a0c6a83592f49930a882a111f7f908c52d1d588b0800c",
+        "retrieved_at": "2026-10-17T19:46:05.614191+00:00",
+        "records": 6580
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2008.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-09-25T03:03:10-04:00",
+          "size": "45541236",
+          "zipSize": "4185795",
+          "gzSize": "4185659",
+          "sha256": "A5F50779A52067D2E118F32A216938D5AF0C3637BC6B73D0BF3CBAED87DB4885"
+        },
+        "compressed_sha256": "bc6b2f7baad7588f0c5b8304dc6f8bcef4333733057889d85c4eb61c1f20abf1",
+        "retrieved_at": "2026-10-17T19:46:06.933362+00:00",
+        "records": 7179
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2009.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-02T03:04:25-04:00",
+          "size": "43664414",
+          "zipSize": "4529580",
+          "gzSize": "4529444",
+          "sha256": "01742B33C09C8C5040779BEA5AC1E554380C3F26807C2F0033A3EC570F1E00B1"
+        },
+        "compressed_sha256": "5ee6a6a70efad2bada5cfb168d5b66cfb1b61b71be1e6b9008e5223f27033f45",
+        "retrieved_at": "2026-10-17T19:46:08.045718+00:00",
+        "records": 5054
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2010.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-03T03:03:50-04:00",
+          "size": "47114425",
+          "zipSize": "4360034",
+          "gzSize": "4359898",
+          "sha256": "F98856F360D1BD0F8C2B021A2826A4C54CF14677FDEBAAB3FBD6AC5FD393838F"
+        },
+        "compressed_sha256": "04e96709e807ba8145462555539ada1dfd646bdec09636063d7fb97e47086422",
+        "retrieved_at": "2026-10-17T19:46:09.063902+00:00",
+        "records": 5249
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2011.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-10T03:03:29-04:00",
+          "size": "46639543",
+          "zipSize": "4275358",
+          "gzSize": "4275222",
+          "sha256": "91EFEE94571B389AFA3608698BD8D49B2F93D521B659F0CE035B863D4DD8F196"
+        },
+        "compressed_sha256": "8a73698cc66c4975a32e1724a8638fe76fb40c3463f0174db2bcac9d133391cb",
+        "retrieved_at": "2026-10-17T19:46:10.146254+00:00",
+        "records": 4899
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2012.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-10T03:03:23-04:00",
+          "size": "54361821",
+          "zipSize": "4865214",
+          "gzSize": "4865078",
+          "sha256": "A39FD67F0533215B0DBFD6F81E3A80BC59937504E1E9050C6E787775DE1EA926"
+        },
+        "compressed_sha256": "f9b23685b5efc5c4a22133c558e9c6ee95198313a3d4311d4df6e48aba414d07",
+        "retrieved_at": "2026-10-17T19:46:11.384085+00:00",
+        "records": 5939
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2013.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:04:19-04:00",
+          "size": "59665883",
+          "zipSize": "5800812",
+          "gzSize": "5800676",
+          "sha256": "CFC9652AEAA7AB9363EA1F37A6F9FEE3D1BAA2FB1FF5D6E21FB4EDAFDF52B67C"
+        },
+        "compressed_sha256": "18a584144ccf2daa9f664c787fa8af636fca955cb5955d71dcf0c48e8475d5a1",
+        "retrieved_at": "2026-10-17T19:46:12.642891+00:00",
+        "records": 6832
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2014.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-15T03:04:16-04:00",
+          "size": "55265281",
+          "zipSize": "4548954",
+          "gzSize": "4548818",
+          "sha256": "13E3476692EC732815074662B80DD30F64DD7C3C9F6A07C4C669F7C941742EDF"
+        },
+        "compressed_sha256": "2df5c4ed5339f91eb167df0d242d45d8c66e4b0e24484f4bfbf06ac24a74327a",
+        "retrieved_at": "2026-10-17T19:46:13.976761+00:00",
+        "records": 9003
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2015.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-15T03:04:09-04:00",
+          "size": "55263902",
+          "zipSize": "4211498",
+          "gzSize": "4211362",
+          "sha256": "05ADA9C48DB35736B601459F44BAEF9A14C1AD17E8E52022D1A6551C12D3E74B"
+        },
+        "compressed_sha256": "9da9d504f9a4dcd75efeb0a552099cf42afc4f464bac3fd36a4aef87f344fe38",
+        "retrieved_at": "2026-10-17T19:46:15.490908+00:00",
+        "records": 8780
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2016.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:04:12-04:00",
+          "size": "70264580",
+          "zipSize": "5169316",
+          "gzSize": "5169180",
+          "sha256": "4F9887E72468AD410EDE1F2852F902216CFDD992F174E680F32C83C08A06D390"
+        },
+        "compressed_sha256": "0e8f29c5c32e44cbaa2a24fbc0334b3a979a91b7fb4b9a69879e67a508b5fc82",
+        "retrieved_at": "2026-10-17T19:46:17.477082+00:00",
+        "records": 10651
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2017.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:04:02-04:00",
+          "size": "101817051",
+          "zipSize": "7708341",
+          "gzSize": "7708205",
+          "sha256": "BE24F0E6A04F48305D5FB8AE74BFE48917C3FB66104FC6DB58C7447080C7B976"
+        },
+        "compressed_sha256": "a45fdcfefea9eae4f0e9dced05ccc9c7a81e0984341d96671812bc82f6ce9968",
+        "retrieved_at": "2026-10-17T19:46:20.004626+00:00",
+        "records": 17109
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2018.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:03:50-04:00",
+          "size": "108739338",
+          "zipSize": "8274177",
+          "gzSize": "8274041",
+          "sha256": "46B1B55EBEC6B46B7C756119988F1E47F0D7906C844F5A6CEBC47B0A1E75F2EB"
+        },
+        "compressed_sha256": "5c9da37b2cf25967d7301dad045d866a230ecd124e4ac36b2a3b6693517a1a6a",
+        "retrieved_at": "2026-10-17T19:46:23.079789+00:00",
+        "records": 17817
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2019.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:03:37-04:00",
+          "size": "126066239",
+          "zipSize": "10197521",
+          "gzSize": "10197385",
+          "sha256": "0A7EAABB7E8B3AA7600AD1F3AA632175B89730D524CCA21F83579E9D41A650F4"
+        },
+        "compressed_sha256": "cdf3ce6041ccacb36f86ab0e999b9428975f89082f2dffb4050449c7c752403b",
+        "retrieved_at": "2026-10-17T19:46:26.985709+00:00",
+        "records": 17625
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2020.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:03:19-04:00",
+          "size": "165656259",
+          "zipSize": "14012782",
+          "gzSize": "14012646",
+          "sha256": "FCB92AC8A40D88071D31CE23D14D92365696E1DD9B91EFFF45AAFF2F340876AE"
+        },
+        "compressed_sha256": "ad7950e696dcfc11ed1017dfd40ce4a811ab88666c9778ef866db150396eac00",
+        "retrieved_at": "2026-10-17T19:46:31.186056+00:00",
+        "records": 21081
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2021.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:02:56-04:00",
+          "size": "197861199",
+          "zipSize": "16863907",
+          "gzSize": "16863771",
+          "sha256": "F804D1BF3D9FA5AAD2BAB5691B58DFFD30AE3095B00033CDDF021B636BBFDF97"
+        },
+        "compressed_sha256": "4d8a3b2c3a2e27c61170ea2925c9e9f4204cf1da9a964528f9c37311d1dff263",
+        "retrieved_at": "2026-10-17T19:46:35.541250+00:00",
+        "records": 23473
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2022.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:02:34-04:00",
+          "size": "216925785",
+          "zipSize": "18388383",
+          "gzSize": "18388247",
+          "sha256": "A9CC60A178477DC7E3A4117FBFB8FC4163ED761FE0F04AC9DDEE5B8972667CF3"
+        },
+        "compressed_sha256": "dc2a902d21bde11e22925f90716c4f7007114d63b4f0241ba92308a80a0c5a55",
+        "retrieved_at": "2026-10-17T19:46:42.118414+00:00",
+        "records": 27557
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2023.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:02:09-04:00",
+          "size": "247932382",
+          "zipSize": "20226502",
+          "gzSize": "20226366",
+          "sha256": "2A209EBBFA35346F42C9F6E66E4468CE3C808CFFB58EA0A9170126A81119165E"
+        },
+        "compressed_sha256": "eb995b1687e4b0c1d0b57fded1f6d0af79af41cf19946a24984ac8de2bb397cb",
+        "retrieved_at": "2026-10-17T19:46:47.560149+00:00",
+        "records": 31460
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2024.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:01:38-04:00",
+          "size": "292324139",
+          "zipSize": "25051112",
+          "gzSize": "25050976",
+          "sha256": "D05227BEE048355DC011EC031BEB12FBE6589E080182099EF156291CA54121FF"
+        },
+        "compressed_sha256": "db5f87087b74b5a39107d9cec51e8ced28de74882b9972470a6d9d77aebaa543",
+        "retrieved_at": "2026-10-17T19:46:54.957393+00:00",
+        "records": 39269
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2025.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:01:06-04:00",
+          "size": "290984608",
+          "zipSize": "24977934",
+          "gzSize": "24977798",
+          "sha256": "65C808B291F0CFC4E108A0F312D096A4BD08F21162D3D17DF3B7AE08B3831556"
+        },
+        "compressed_sha256": "a7353de02d85e30b116e772aec9287efd35ac8eef55356ec9fddca9473993372",
+        "retrieved_at": "2026-10-17T19:47:02.746781+00:00",
+        "records": 45373
+      },
+      {
+        "url": "https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-2026.json.gz",
+        "metadata": {
+          "lastModifiedDate": "2026-10-16T03:00:20-04:00",
+          "size": "451475002",
+          "zipSize": "36950098",
+          "gzSize": "36949962",
+          "sha256": "E07BA4ECF0960D0080C2A4BCD61CD740FD27CBA1F096D21CBB4FABC090D0A2CB"
+        },
+        "compressed_sha256": "90e879346442d8d90b4e947fa5b4f9aae8408a999620b4905e62d26e8756ed5c",
+        "retrieved_at": "2026-10-17T19:47:13.158247+00:00",
+        "records": 74938
+      }
+    ]
+  },
+  "CWE_historical_baselines_only": {
+    "version": "4.20",
+    "catalog_date": "2026-04-30",
+    "exact_rebuilt_definition_text_matches": 1450,
+    "SWCV_uses_definitions": false
+  },
+  "benchmark_checkout_commit": "4543e5b6560d3204e1205ced4fa286adc7452d07",
+  "temporal_cutoff_enforced": false,
+  "source_hashes": {
+    "delta.json": "a2e87b4354706bc99e8a924900d8b62328b9166b4ae045183bea84801d8a8c62",
+    "deltaLog.json": "f64b4ded08d91c85406449baa70750a49353c9013c880d1cc9e93f8d2c7c5977",
+    "cwec_latest.xml": "1f5a78bd62e00f86436b4fe32d5034a57e8f0da88e4063b2072b664ae510912e",
+    "local_complete.json": "3622c4a173e8f3afd8869ed5ad30e8090e5d1eb1519f93b65cd653fc0f4b8563",
+    "manifest.json": "c2f069ba096e4e92b3a2d3fde59d98ea7c24fda8752603aee764312341dfe062",
+    "04_setup.tex": "e77f42de3490793ffef1873ab4a197c9a89cd1af75bec596a0cba9d2f2d88bc2"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "sha256": "eaf77b91960aeab841129f0cd618bb32e7d56d41bfb3c1024ea53fc2620dac63",
+  "rule": "One full vote or full cosine contribution per attached CWE; lexical CWE tie break; existing ordered top20; k10 retained, not retuned",
+  "n": 290,
+  "scoring_gold_loaded_after_control_ledger_written": true
+}

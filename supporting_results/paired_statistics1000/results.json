@@ -1,0 +1,70 @@
+{
+  "bootstrap_resamples": 200000,
+  "randomization_draws": 200000,
+  "difference_direction": "aggregation minus reader, percentage points",
+  "comparisons": {
+    "naive_rag20": {
+      "n": 1000,
+      "aggregation_mean_f1_percent": 76.3,
+      "reader_mean_f1_percent": 75.83333333333333,
+      "difference_points": 0.4666666666666671,
+      "paired_bootstrap_95_CI_points": [
+        -1.2666666666666604,
+        2.193333333333336
+      ],
+      "aggregation_bootstrap_95_CI_percent": [
+        73.6,
+        78.9
+      ],
+      "reader_bootstrap_95_CI_percent": [
+        73.38,
+        78.23
+      ],
+      "two_sided_paired_randomization_p": 0.59920200398998,
+      "randomization_monte_carlo_se": 0.0010958050958440645,
+      "binary_exact_match_secondary": {
+        "both_correct": 646,
+        "aggregation_only_correct": 117,
+        "reader_only_correct": 30,
+        "both_wrong": 207,
+        "reader_correct": 676,
+        "exact_two_sided_mcnemar_p": 2.454295235326543e-13
+      },
+      "bootstrap_seed": 20261112,
+      "randomization_seed": 20261113,
+      "f1_randomization_holm_p_two_comparisons": 0.59920200398998
+    },
+    "fusion": {
+      "n": 1000,
+      "aggregation_mean_f1_percent": 76.3,
+      "reader_mean_f1_percent": 77.36333333333333,
+      "difference_points": -1.063333333333333,
+      "paired_bootstrap_95_CI_points": [
+        -2.9400000000000093,
+        0.8000000000000007
+      ],
+      "aggregation_bootstrap_95_CI_percent": [
+        73.7,
+        78.9
+      ],
+      "reader_bootstrap_95_CI_percent": [
+        74.93666666666665,
+        79.73
+      ],
+      "two_sided_paired_randomization_p": 0.2674736626316868,
+      "randomization_monte_carlo_se": 0.0009897740216268144,
+      "binary_exact_match_secondary": {
+        "both_correct": 662,
+        "aggregation_only_correct": 101,
+        "reader_only_correct": 41,
+        "both_wrong": 196,
+        "reader_correct": 703,
+        "exact_two_sided_mcnemar_p": 5.0560375511591e-07
+      },
+      "bootstrap_seed": 20261114,
+      "randomization_seed": 20261115,
+      "f1_randomization_holm_p_two_comparisons": 0.5349473252633736
+    }
+  },
+  "limitations": "Conditional on frozen predictions; question-level independent-case assumption. No family clustering or model-run variability. Baselines selected retrospectively on these same questions. Holm adjustment covers only these two F1 tests, not historical exploration; intervals are pointwise, not simultaneous. Secondary binary McNemar tests address exact match, not mean question F1."
+}

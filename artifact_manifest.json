@@ -1,0 +1,33 @@
+{
+  "scope": "Preserved historical overlap-sensitivity artifacts; current paper tables are in the v1.0.0 release.",
+  "files_sha256": {
+    "artifacts/swcv_exact_baseline/config.json": "0e8395d1b96902e357d70b73f193b55759586084598801a794a2d935df46ec2f",
+    "artifacts/swcv_exact_baseline/retrieval.jsonl": "818a8763658a9a50d183d619a567c7e25cdaac2f89a1c906d9496436c9cf3ef1",
+    "artifacts/swcv_exact_baseline/scores.json": "97445af0c60bd355c48f4e2d9f43feda4524c0ad8d81ba84fb9be706a5c58e80",
+    "artifacts/swcv_exact_baseline/predictions.jsonl": "0b475ab1bca0825c166eb06202f279a019d673372ac87093798ae12e7d4fbcdd",
+    "artifacts/swcv_union_filtered/config.json": "7ad820e1d58d0ec8b31c40a9d6c2ddaeb1b9b9013d3d3c223f3badb35bebe2f7",
+    "artifacts/swcv_union_filtered/retrieval.jsonl": "69a5c26578f2b0dc1a77c22f10d2ba8b68c7143dab02bc67a1dd4a9c48cd4595",
+    "artifacts/swcv_union_filtered/scores.json": "7c595e90cea4783cf29a713883f91e6a39f69cbfb61080daeb17a09689584fec",
+    "artifacts/swcv_union_filtered/predictions.jsonl": "d0a0638bbe441a2a7e984dd1e0c0bd485955f179c38ba6eee49b4bfed8fff2db",
+    "benchmarks/ctibench_original335_ids.jsonl": "c2e7fe122b012db4fef991896b71f93430e6589a7985672539ce67e81128c7fc",
+    "benchmarks/ctibench_rcm1000_ids.jsonl": "811cc429b558c68c0d37111992166993b5a87c81a2f10a5a3c6fffe921d68912",
+    "benchmarks/ctibench_rcm1000_gold.jsonl": "54680fb201f1322c7ec50f2f1c08a8d701a08a327ca14fae7563eba55d3d252c",
+    "corpus/id_and_exact_exclusions.jsonl": "f366045837a1d0278eb2c52414dac16dba63ed2d024479a943367fa8ae796cc2",
+    "corpus/semantic_exclusions_0.98.json": "9b9dc175fc7c3a73d616b6e10576d07a51b0022d670a7d4c73c347775259116e",
+    "corpus/near_duplicate_union.json": "aedd2cb4f2ea04bb1bedb96b5284bf8827669b83a173d6669ffb9ab9047096a6",
+    "corpus/lexical_exclusions.json": "e5feff7aa94cd35957ebc216b86af680ce8194ca58fab76a6bfab5098511e3fc",
+    "corpus/semantic_exclusions_0.95.json": "cdb607cd70f685a41a51ad474a070792354fb54cacca93b15f12e50d982aed49",
+    "corpus/manifest.json": "cb3814f4f39055249474ba21c215d0ad1a0b0f93e94a7c375268a2642a0b13fa",
+    "configs/near_duplicate_detection.json": "0a386231d980a97babf44b1a01b3e41531b3bbbb38d3a6fb7aaa02bdca8341f1",
+    "configs/retrieval_encoding.json": "293a4f15640d17ea3a129f6f8f352ce3569dc2ac3010157f2130b93f8bcb5000",
+    "configs/naive_rag20.json": "be46827897ea9ebca68d56eb2b75aec71a267712ede787cdd6c7d917755801ac",
+    "configs/providers/openrouter.example.json": "b885a04526a909e766c6ab95d3ebf35235ea4f3152935ee8c0be6f8ab11ce78e",
+    "configs/providers/openai_compatible.example.json": "2f094bfe05d5a28c70be045448a11fa465e7ea07bc79842d086fab5be88a42bf",
+    "configs/providers/self_hosted.example.json": "5cfd17f16698b2cb9f6a8b503b7492f6f6435a1a49b3ebcd7d4f29892dc70b66",
+    "configs/models/current_local_roster.json": "5adce0623119689e724a3b66e21b49855a73aa55216bf19cedbe76f947a5b309",
+    "prompts/naive_rag_cticonnect.json": "5595a2ecacb2f094a5960167468f1bb2c82ab8477f2a657a45a8ae05f280ff72",
+    "prompts/closed_book_cticonnect.json": "e9e13ecc0eea31eb7ec79e35aef57e380776fe8f4fd592d90cdef7453f597da9",
+    "configs/historical/naive_rag20_120242.json": "0424d70d5cc1a47d55ca326b469d307ee6d03792571ec73d176d730735dd0ade",
+    "configs/evaluation_selection.json": "761685b6a891a7f5d884d245188be892b540f5509cf1717d682357cfd0b5952a"
+  }
+}

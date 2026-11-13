@@ -1,0 +1,5 @@
+{
+  "original_overlap_code_sha256": "4fa2aa1ca3d31ca0e075c1ba5b88dc0d541ed901a871a4aa27fc66d583c627ad",
+  "public_overlap_code_sha256": "ab5fd3ef0500d7e0ced928b15cf2585b25bf5848e75ccfb8ba640ee95a96615d",
+  "changes": "Portable asset/model paths and preflight hash mapping; same screening, encoding, retrieval, exclusion and voting arithmetic; URL rules extracted verbatim."
+}

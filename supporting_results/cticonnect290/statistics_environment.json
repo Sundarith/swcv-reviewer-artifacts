@@ -1,0 +1,5 @@
+{
+  "python": "3.13.12",
+  "numpy": "2.2.6",
+  "requires": "Python with NumPy; no inference dependencies for compute.py"
+}

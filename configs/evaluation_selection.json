@@ -1,0 +1,59 @@
+{
+  "scope": "Current paper aggregation selections; no new run or retuning",
+  "CTI_Bench_RCM1000": {
+    "questions": 1000,
+    "aggregation_k": 20,
+    "selection_status": "retrospective retained configuration; not selected on independent development data",
+    "reported_sweep_k": [
+      1,
+      5,
+      10,
+      20,
+      30,
+      50
+    ],
+    "accuracy_percent": 76.3,
+    "naive_rag_references": 20,
+    "eligible_references": 120238,
+    "reference_mask": "corpus/final_source_supported_exclusions.json"
+  },
+  "CTIConnect_RCM290": {
+    "questions": 290,
+    "aggregation_k": 10,
+    "selection_status": "exploratory selection on the same290evaluation questions",
+    "selection_candidates": [
+      5,
+      10,
+      20
+    ],
+    "correct": 161,
+    "f1_percent": 55.51724137931034,
+    "k20_sensitivity_correct": 158,
+    "k20_sensitivity_f1_percent": 54.48275862068966,
+    "naive_rag_references": 20,
+    "reference_pool": "Benchmark-specific filtered mapped-CVE corpus; do not reuse CTI-Bench corpus counts",
+    "scoring": "Official accepted alternatives plus declared Unicode-hyphen normalization",
+    "extended_sensitivity": {
+      "k_values": [
+        1,
+        5,
+        10,
+        20,
+        30,
+        50
+      ],
+      "results": "supporting_results/cticonnect290/neighborhood_sensitivity/results.json",
+      "protocol": "supporting_results/cticonnect290/neighborhood_sensitivity/protocol.json",
+      "role": "Later sensitivity analysis; original selection_candidates and primary_k remain unchanged"
+    }
+  },
+  "protocol_coverage": {
+    "selected_reader_conditions": 198,
+    "model_checkpoint_lineages": 198,
+    "saved_chat_templates_conditions": 198,
+    "response_timestamp_window_conditions": 40,
+    "completion_receipt_conditions": 187,
+    "historical_phase_dates_fully_recovered": false
+  },
+  "qualification": "Reference-only development for the softmax-voting temperature is a distinct baseline procedure; it does not establish independent selection of aggregation k."
+}

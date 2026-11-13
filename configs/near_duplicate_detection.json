@@ -1,0 +1,26 @@
+{
+  "lexical": {
+    "normalization": "casefold and whitespace collapse",
+    "word_ngram": 5,
+    "set_jaccard_strictly_above": 0.8,
+    "character_edit_similarity_strictly_above": 0.8,
+    "edit_similarity": "1 - unit-cost Levenshtein distance / max character length"
+  },
+  "semantic": {
+    "model": "Qwen/Qwen3-Embedding-4B",
+    "revision": "5cf2132abc99cad020ac570b19d031efec650f2b",
+    "input": "descriptions only on both sides, casefold and whitespace collapse",
+    "instruction_prefix": "none",
+    "pooling": "last token, L2 normalized",
+    "forward_precision": "BF16",
+    "saved_vectors": "FP32",
+    "max_tokens": 8192,
+    "truncation": false,
+    "cosine_primary_at_least": 0.95,
+    "cosine_stricter_at_least": 0.98,
+    "search": "exhaustive benchmark-to-reference comparison; no clustering",
+    "workers_per_gpu": 8
+  },
+  "union": "lexical OR semantic0.95; deduplicate reference IDs",
+  "limitation": "similarity-defined sensitivity, not proof of same-flaw duplication or absence of model pretraining exposure"
+}

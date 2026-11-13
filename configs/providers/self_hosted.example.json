@@ -1,0 +1,14 @@
+{
+  "backend": "openai_compatible",
+  "base_url": "http://localhost:8000/v1",
+  "model": "YOUR_SERVED_MODEL_ALIAS",
+  "api_key_env": "SWCV_API_KEY",
+  "method": "naive_rag",
+  "top_k": 20,
+  "workers": 16,
+  "max_tokens": 512,
+  "temperature": 0,
+  "extra_body": {
+    "chat_template_kwargs": {"enable_thinking": false}
+  }
+}

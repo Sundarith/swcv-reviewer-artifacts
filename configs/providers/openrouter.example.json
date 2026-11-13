@@ -1,0 +1,18 @@
+{
+  "backend": "openai_compatible",
+  "base_url": "https://openrouter.ai/api/v1",
+  "model": "YOUR_EXACT_OPENROUTER_MODEL_ID",
+  "api_key_env": "OPENROUTER_API_KEY",
+  "method": "naive_rag",
+  "top_k": 20,
+  "workers": 16,
+  "max_tokens": 512,
+  "temperature": 0,
+  "extra_body": {
+    "provider": {
+      "only": ["YOUR_VERIFIED_PROVIDER_SLUG"],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    }
+  }
+}

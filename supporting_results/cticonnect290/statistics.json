@@ -1,0 +1,101 @@
+{
+  "n": 290,
+  "resamples": 200000,
+  "difference_direction": "aggregation_k10 minus comparator in percentage points",
+  "comparisons": {
+    "majority_k10": {
+      "aggregation_f1_percent": 55.51724137931034,
+      "comparator_f1_percent": 54.82758620689655,
+      "difference_points": 0.6896551724137931,
+      "paired_bootstrap_95_CI_points": [
+        -1.0344827586206862,
+        2.4137931034482807
+      ],
+      "aggregation_bootstrap_95_CI_percent": [
+        49.6551724137931,
+        61.03448275862069
+      ],
+      "comparator_bootstrap_95_CI_percent": [
+        48.96551724137931,
+        60.689655172413794
+      ],
+      "paired_randomization_p": 0.6876765616171919,
+      "randomization_monte_carlo_se": 0.0010362828627777667,
+      "official_binary_secondary": {
+        "counts_both_aggregation_only_comparator_only_neither": [
+          157,
+          4,
+          2,
+          127
+        ],
+        "exact_mcnemar_p": 0.6875
+      },
+      "bootstrap_seed": 20261116,
+      "randomization_seed": 20261117,
+      "holm_p_three_comparisons": 0.6876765616171919
+    },
+    "naive_rag__gptoss": {
+      "aggregation_f1_percent": 55.51724137931034,
+      "comparator_f1_percent": 60.0,
+      "difference_points": -4.482758620689655,
+      "paired_bootstrap_95_CI_points": [
+        -8.965517241379306,
+        0.0
+      ],
+      "aggregation_bootstrap_95_CI_percent": [
+        49.6551724137931,
+        61.37931034482759
+      ],
+      "comparator_bootstrap_95_CI_percent": [
+        54.310344827586206,
+        65.51724137931035
+      ],
+      "paired_randomization_p": 0.06130969345153274,
+      "randomization_monte_carlo_se": 0.0005364257972346962,
+      "official_binary_secondary": {
+        "counts_both_aggregation_only_comparator_only_neither": [
+          145,
+          16,
+          28,
+          101
+        ],
+        "exact_mcnemar_p": 0.09614175442061423
+      },
+      "bootstrap_seed": 20261118,
+      "randomization_seed": 20261119,
+      "holm_p_three_comparisons": 0.12261938690306548
+    },
+    "reranked_rag__gptoss": {
+      "aggregation_f1_percent": 55.51724137931034,
+      "comparator_f1_percent": 63.678160919540225,
+      "difference_points": -8.160919540229884,
+      "paired_bootstrap_95_CI_points": [
+        -13.620689655172413,
+        -2.758620689655167
+      ],
+      "aggregation_bootstrap_95_CI_percent": [
+        49.6551724137931,
+        61.37931034482759
+      ],
+      "comparator_bootstrap_95_CI_percent": [
+        58.10344827586207,
+        69.13793103448276
+      ],
+      "paired_randomization_p": 0.0037399813000934994,
+      "randomization_monte_carlo_se": 0.00013649130393714466,
+      "official_binary_secondary": {
+        "counts_both_aggregation_only_comparator_only_neither": [
+          139,
+          22,
+          44,
+          85
+        ],
+        "exact_mcnemar_p": 0.00921048969455458
+      },
+      "bootstrap_seed": 20261120,
+      "randomization_seed": 20261121,
+      "holm_p_three_comparisons": 0.011219943900280499
+    }
+  },
+  "limitations": "Retrospective comparator/k selection; conditional frozen predictions; independent-question assumption; no family clustering or model-run uncertainty. Holm covers these three CTIConnect F1 tests only; intervals are pointwise. Official binary accepted-alternative correctness differs from fractional F1 for readers. Naive RAG uses20 references versus aggregation10."
+}

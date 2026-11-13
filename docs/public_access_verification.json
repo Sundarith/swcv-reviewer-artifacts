@@ -1,0 +1,29 @@
+{
+  "authentication": "No Authorization header or cookie jar; urllib does not read gh credentials",
+  "pages": {
+    "https://github.com/Sundarith/swcv-reviewer-artifacts": 200,
+    "https://github.com/Sundarith/swcv-reviewer-artifacts/releases/tag/v1.0.0": 200
+  },
+  "assets": {
+    "rcm_results_and_protocols.zip": {
+      "bytes": 252132317,
+      "sha256": "4cfa7e36da781cf827df27c7b060605770beaef44500639560379b3c8c56f75d",
+      "hash_matches": true,
+      "anonymous_download": true
+    },
+    "historical_corpus_inputs.zip": {
+      "bytes": 55225041,
+      "sha256": "e28e650986478a06e6da2f15f78026a1d88a38f3afe182d8763437fd05553013",
+      "hash_matches": true,
+      "anonymous_download": true
+    }
+  },
+  "clone_and_code_checks": {
+    "anonymous_https_clone": true,
+    "private_repository_touched": false,
+    "tests_passed": 15,
+    "historical_offline_checks_passed": 2,
+    "commit": "a13abf2a630939f3517b576973a2c9229373075e"
+  },
+  "verified_date": "2026-11-12"
+}

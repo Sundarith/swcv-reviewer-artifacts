@@ -1,0 +1,15 @@
+{
+  "source_path": "analysis/swcv_final_group_sensitivity_20261107/shared_disclosure_exclusions.json",
+  "public_path": "corpus/shared_disclosure_exclusions.json",
+  "source_sha256": "e71bd48a6a993717535207383445bb83557fbbc160ca68fbc52931a766eac92c",
+  "public_sha256": "e71bd48a6a993717535207383445bb83557fbbc160ca68fbc52931a766eac92c",
+  "sanitization": "None; original bytes preserved",
+  "additional_exclusions": 574,
+  "remaining_references": 120097,
+  "prediction_ledger": "supporting_results/ablations/point5/baseline_predictions.jsonl.gz",
+  "prediction_arm": "shared_disclosure",
+  "questions": 1000,
+  "correct": 764,
+  "accuracy_percent": 76.4,
+  "verification": "Unique IDs/rows; eligible rows disjoint; primary exclusions included; no excluded neighbors; saved predictions scored against released gold."
+}

@@ -1,0 +1,175 @@
+{
+  "scope": "Current filtered CTI-Bench1000 NaiveRAG20 model configurations",
+  "source_models_manifest_sha256": "92cf0521be9ad26f3713833b8a4ad1aed0d4d03f8e2bb55d344663a2175f74af",
+  "generation": {
+    "temperature": 0,
+    "max_tokens": 512,
+    "n": 1,
+    "workers_total": 16,
+    "thinking": "disabled by the experiment host, not by a universal API parameter"
+  },
+  "models": [
+    {
+      "run_model_id": "granite30_fp8",
+      "requested_model": "ibm-granite/granite-4.2-30b-fp8",
+      "model_revision": "bee6d7463fd7064455f59ac480a3fcdcae5cb801",
+      "serving": "OpenAI-compatible API",
+      "template_options": {
+        "enable_thinking": false
+      },
+      "context_capacity": 8192,
+      "replicas": 1,
+      "tensor_parallel_sizes": [
+        2
+      ]
+    },
+    {
+      "run_model_id": "gemmae4b",
+      "requested_model": "google/gemma-4-E4B-it",
+      "model_revision": "ee0ef6023621cff504d758262d4e04895a5af4a2",
+      "serving": "OpenAI-compatible API",
+      "template_options": {
+        "enable_thinking": false
+      },
+      "context_capacity": 16384,
+      "replicas": 2,
+      "tensor_parallel_sizes": [
+        1,
+        1
+      ]
+    },
+    {
+      "run_model_id": "granite8b",
+      "requested_model": "ibm-granite/granite-4.2-8b",
+      "model_revision": "f8de16cdcdbc6c779ca517604e050d82cc119e44",
+      "serving": "OpenAI-compatible API",
+      "template_options": {
+        "enable_thinking": false
+      },
+      "context_capacity": 16384,
+      "replicas": 2,
+      "tensor_parallel_sizes": [
+        1,
+        1
+      ]
+    },
+    {
+      "run_model_id": "qwen",
+      "requested_model": "Qwen/Qwen3.5-9B",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "serving": "OpenAI-compatible API",
+      "template_options": {
+        "enable_thinking": false
+      },
+      "context_capacity": 8192,
+      "replicas": 2,
+      "tensor_parallel_sizes": [
+        1,
+        1
+      ]
+    },
+    {
+      "run_model_id": "llama",
+      "requested_model": "meta-llama/Llama-3.1-8B-Instruct",
+      "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "serving": "OpenAI-compatible API",
+      "template_options": {
+        "enable_thinking": false
+      },
+      "context_capacity": 8192,
+      "replicas": 2,
+      "tensor_parallel_sizes": [
+        1,
+        1
+      ]
+    },
+    {
+      "run_model_id": "gptoss",
+      "requested_model": "openai/gpt-oss-20b",
+      "model_revision": "gptoss",
+      "serving": "OpenAI-compatible API",
+      "template_options": {
+        "enable_thinking": false
+      },
+      "context_capacity": 8192,
+      "replicas": 2,
+      "tensor_parallel_sizes": [
+        1,
+        1
+      ]
+    },
+    {
+      "run_model_id": "gemma31_qat",
+      "requested_model": "google/gemma-4-31B-it-qat-w4a16-ct",
+      "model_revision": "52f3f65bc7a02d555763bc923bd1d9094898219d",
+      "serving": "OpenAI-compatible API",
+      "template_options": {
+        "enable_thinking": false
+      },
+      "context_capacity": 3584,
+      "replicas": 2,
+      "tensor_parallel_sizes": [
+        1,
+        1
+      ]
+    },
+    {
+      "run_model_id": "nemotron",
+      "requested_model": "nvidia/Nemotron-3.5-Lightning",
+      "model_revision": "nemotron",
+      "serving": "OpenAI-compatible API",
+      "template_options": {
+        "enable_thinking": false
+      },
+      "context_capacity": 8192,
+      "replicas": 1,
+      "tensor_parallel_sizes": [
+        2
+      ]
+    },
+    {
+      "run_model_id": "qwen38",
+      "requested_model": "Qwen/Qwen3.8-27B",
+      "model_revision": "qwen38",
+      "serving": "OpenAI-compatible API",
+      "template_options": {
+        "enable_thinking": false
+      },
+      "context_capacity": 8192,
+      "replicas": 1,
+      "tensor_parallel_sizes": [
+        2
+      ]
+    },
+    {
+      "run_model_id": "phi",
+      "requested_model": "microsoft/phi-4",
+      "model_revision": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+      "serving": "OpenAI-compatible API",
+      "template_options": {
+        "enable_thinking": false
+      },
+      "context_capacity": 8192,
+      "replicas": 1,
+      "tensor_parallel_sizes": [
+        2
+      ]
+    },
+    {
+      "run_model_id": "muse",
+      "requested_model": "meta-models/Muse-Glimmer-30B",
+      "model_revision": "1deb4641ff84f9a728dd11b27cac1f6a02a9ed14",
+      "serving": "OpenAI-compatible API",
+      "template_options": {
+        "current_date": "2026-11-06",
+        "muse_direct_answer": true,
+        "enable_thinking": false
+      },
+      "context_capacity": 8192,
+      "replicas": 1,
+      "tensor_parallel_sizes": [
+        2
+      ]
+    }
+  ]
+}
